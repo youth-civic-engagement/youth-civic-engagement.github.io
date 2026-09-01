@@ -1,43 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Youth Civic Engagement</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civil Rights Legislation Tracker for Chinese Americans</title>
+    <meta name="description" content="An official-source overview of U.S. federal and state legislation reviewed for individual effects involving Chinese nationality, citizenship, or origin.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Civil Rights Legislation Tracker for Chinese Americans">
+    <meta property="og:description" content="Federal and state legislation reviewed through official government sources.">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Civil Rights Legislation Tracker for Chinese Americans">
+    <meta name="twitter:description" content="Federal and state legislation reviewed through official government sources.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body style="font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin:0; padding:0; line-height:1.6; color:#222; background:#f9fafb;">
-<header style="background:#1d4ed8; color:white; padding:32px 20px; text-align:center;">
-<h1 style="margin:0; font-size:2.2rem;">Youth Civic Engagement</h1>
-<p style="margin:8px 0 0; opacity:0.9;">Empowering young voices to shape our communities</p>
-<nav style="margin-top:16px;">
-<a href="#about" style="color:white; margin:0 12px; text-decoration:none; font-weight:600;">About</a>
-<a href="#projects" style="color:white; margin:0 12px; text-decoration:none; font-weight:600;">Projects</a>
-<a href="#contact" style="color:white; margin:0 12px; text-decoration:none; font-weight:600;">Contact</a>
-</nav>
-</header>
-<main style="max-width:900px; margin:0 auto; padding:32px 20px;">
-<section id="about" style="background:white; padding:24px; border-radius:12px; box-shadow:0 1px 3px rgba(0,0,0,0.08); margin-bottom:24px;">
-<h2 style="margin-top:0; color:#1e40af;">About</h2>
-<p>Youth Civic Engagement is a youth-led initiative focused on increasing civic participation, voter education, and community organizing. We believe young people have the power to drive meaningful change when given tools, mentorship, and a platform.</p>
-<p>Our mission is to make civic learning accessible, inclusive, and action-oriented.</p>
-</section>
-<section id="projects" style="background:white; padding:24px; border-radius:12px; box-shadow:0 1px 3px rgba(0,0,0,0.08); margin-bottom:24px;">
-<h2 style="margin-top:0; color:#1e40af;">Projects</h2>
-<ul style="padding-left:20px;">
-<li><strong>Civic Workshops</strong> – Interactive sessions on local government, advocacy, and media literacy.</li>
-<li><strong>Community Mapping</strong> – Youth researchers documenting local issues and assets.</li>
-<li><strong>Get Out The Vote</strong> – Peer-to-peer voter registration and education campaigns.</li>
-</ul>
-</section>
-<section id="contact" style="background:white; padding:24px; border-radius:12px; box-shadow:0 1px 3px rgba(0,0,0,0.08);">
-<h2 style="margin-top:0; color:#1e40af;">Contact</h2>
-<p>Interested in collaborating, volunteering, or learning more?</p>
-<p>Email: <a href="mailto:hello@youth-civic.example">hello@youth-civic.example</a><br>
-GitHub: <a href="https://github.com/youth-civic-engagement">@youth-civic-engagement</a></p>
-</section>
-</main>
-<footer style="text-align:center; padding:24px; color:#6b7280; font-size:0.9rem;">
-© 2026 Youth Civic Engagement. Built with GitHub Pages.
-</footer>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header">
+        <div class="site-container header-inner">
+            <a class="brand" href="#main-content" aria-label="Civil Rights Legislation Tracker for Chinese Americans home">
+                <span class="brand-mark" aria-hidden="true">⚖</span>
+                <span>
+                    <span class="brand-name">Civil Rights Legislation Tracker for Chinese Americans</span>
+                    <span class="brand-kicker">Federal &amp; state monitor</span>
+                </span>
+            </a>
+            <div class="header-controls">
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="index.html" aria-current="page">Overview</a>
+                    <a href="federal.html">Federal</a>
+                    <a href="states.html">States</a>
+                    <a href="methodology.html">Methodology</a>
+                    <a href="why.html">Why we track</a>
+                </nav>
+                <div class="header-actions">
+                    <a class="header-action secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                    <a class="header-action primary" href="#contact" data-github-issue="report_bill.yml">Report a bill</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" class="overview-main">
+        <section class="dashboard overview-dashboard" aria-labelledby="page-title">
+            <div class="site-container">
+                <header class="page-intro overview-intro">
+                    <div>
+                        <p class="eyebrow">Official-source legislation monitor</p>
+                        <h1 id="page-title">Federal and state legislation reviewed for individual civil-rights effects</h1>
+                        <p class="page-summary">The tracker reviews U.S. measures that expressly use Chinese nationality or citizenship, incorporate a covered-country list that includes China, or apply a broader legal classification that includes Chinese nationals.</p>
+                    </div>
+                </header>
+
+                <div class="landing-grid" aria-label="Choose a legislation tracker">
+                    <article class="panel landing-card federal-landing-card" aria-labelledby="federal-card-title">
+                        <div>
+                            <p class="panel-kicker">119th Congress</p>
+                            <h2 id="federal-card-title">Federal legislation</h2>
+                            <p class="landing-summary">A provisional full-text review of federal measures. Scope classifications remain under editorial review, especially where coverage depends on affiliation, employment, agency, or conduct.</p>
+                        </div>
+                        <div class="stats-grid compact-stats" aria-label="Federal tracker statistics">
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="federal-total">33</span><span class="stat-label">Measures</span></div>
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="federal-families">26</span><span class="stat-label">Proposal families</span></div>
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="federal-tier1">18</span><span class="stat-label">Tier 1</span></div>
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="federal-tier2">15</span><span class="stat-label">Tier 2</span></div>
+                        </div>
+                        <p class="landing-review-date">Classifications reviewed August 21, 2026; legislative metadata refreshed August 26, 2026.</p>
+                        <a class="action-button primary" href="federal.html">Explore federal measures</a>
+                    </article>
+
+                    <article class="panel landing-card state-landing-card" aria-labelledby="state-card-title">
+                        <div>
+                            <p class="panel-kicker">State legislatures</p>
+                            <h2 id="state-card-title">State legislation</h2>
+                            <p class="landing-summary">Reviewed state measures with a map, status and category filters, official bill pages, and official text links.</p>
+                        </div>
+                        <div class="stats-grid compact-stats" aria-label="State tracker statistics">
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="state-total">34</span><span class="stat-label">Measures</span></div>
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="state-states">21</span><span class="stat-label">States</span></div>
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="state-enacted">18</span><span class="stat-label">Enacted</span></div>
+                            <div class="stat-card"><span class="stat-number" data-overview-stat="state-pending">8</span><span class="stat-label">Pending</span></div>
+                        </div>
+                        <p class="landing-review-date">State records last fully reviewed August 18, 2026.</p>
+                        <a class="action-button primary" href="states.html">Explore state measures</a>
+                    </article>
+                </div>
+
+                <section class="panel overview-method-panel" aria-labelledby="overview-method-title">
+                    <div>
+                        <p class="panel-kicker">Selection and classification</p>
+                        <h2 id="overview-method-title">The methodology defines what is included</h2>
+                        <p>Selection depends on operative text, incorporated definitions, individual coverage, exemptions, and legal effect. Tier labels describe which immigration or citizenship groups the text can reach; they do not rank importance.</p>
+                    </div>
+                    <a class="action-button dark-outline" href="methodology.html">Read the methodology</a>
+                </section>
+
+                <section class="panel overview-history-panel" aria-labelledby="overview-history-title">
+                    <div>
+                        <p class="panel-kicker">Historical context</p>
+                        <h2 id="overview-history-title">Why track nationality-based restrictions?</h2>
+                        <p>The historical page centers the Chinese Exclusion Act and Congress’s later expression of regret while keeping repealed laws outside current tracker totals.</p>
+                    </div>
+                    <a class="action-button dark-outline" href="why.html">Why we track this</a>
+                </section>
+
+                <section class="panel contribute-panel" id="contact" aria-labelledby="contact-title">
+                    <div>
+                        <p class="panel-kicker">Questions and corrections</p>
+                        <h2 id="contact-title">Help improve the tracker</h2>
+                        <p>Share an official source for a measure we may have missed, report a correction, or contact the tracker team.</p>
+                        <p class="submission-note">Submissions use public GitHub issues. Do not include private or sensitive information.</p>
+                    </div>
+                    <div class="contribute-actions">
+                        <a class="action-button secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="site-container footer-inner">
+            <div>
+                <p class="footer-title">Civil Rights Legislation Tracker for Chinese Americans</p>
+                <p>Monitoring federal and state legislation through official public sources.</p>
+            </div>
+            <p class="footer-disclaimer">For informational purposes only; not legal advice.</p>
+        </div>
+    </footer>
+
+    <script src="site.js"></script>
 </body>
 </html>

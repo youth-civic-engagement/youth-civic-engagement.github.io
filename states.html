@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Legislation | Civil Rights Legislation Tracker for Chinese Americans</title>
+    <meta name="description" content="Reviewing state legislation for individual impacts involving Chinese nationality, citizenship, or origin.">
+    <meta name="keywords" content="civil rights, state legislation, tracker, nationality, citizenship, property restrictions, permanent residents">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="State Legislation | Civil Rights Legislation Tracker for Chinese Americans">
+    <meta property="og:description" content="Reviewing state legislation for individual impacts involving Chinese nationality, citizenship, or origin.">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="State Legislation | Civil Rights Legislation Tracker for Chinese Americans">
+    <meta name="twitter:description" content="Reviewing state legislation for individual impacts involving Chinese nationality, citizenship, or origin.">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header">
+        <div class="site-container header-inner">
+            <a class="brand" href="index.html" aria-label="Civil Rights Legislation Tracker for Chinese Americans home">
+                <span class="brand-mark" aria-hidden="true">⚖</span>
+                <span>
+                    <span class="brand-name">Civil Rights Legislation Tracker for Chinese Americans</span>
+                    <span class="brand-kicker">Federal &amp; state monitor</span>
+                </span>
+            </a>
+            <div class="header-controls">
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="index.html">Overview</a>
+                    <a href="federal.html">Federal</a>
+                    <a href="states.html" aria-current="page">States</a>
+                    <a href="methodology.html">Methodology</a>
+                    <a href="why.html">Why we track</a>
+                </nav>
+                <div class="header-actions">
+                    <a class="header-action secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                    <a class="header-action primary" href="#contact" data-github-issue="report_bill.yml">Report a bill</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="dashboard" aria-labelledby="page-title">
+            <div class="site-container">
+                <header class="page-intro">
+                    <div>
+                        <p class="eyebrow">Civil rights legislation dashboard</p>
+                        <h1 id="page-title">State legislation reviewed for individual impact</h1>
+                        <p class="page-summary">A state-by-state review of measures that expressly classify people by Chinese nationality or citizenship, or use broader legal categories that include them. Tier 1 can reach lawful permanent residents (LPRs) and/or U.S. citizens. Tier 2 reaches visa applicants, visa holders, nonresident aliens, or other non-LPR foreign nationals without reaching citizens or LPRs.</p>
+                    </div>
+                    <p class="last-reviewed"><span aria-hidden="true">●</span> Data reviewed August 18, 2026</p>
+                </header>
+
+                <div class="dashboard-layout">
+                    <div class="overview-column" id="overview">
+                        <section class="panel summary-panel" aria-labelledby="summary-title">
+                            <div class="panel-heading">
+                                <div>
+                                    <p class="panel-kicker">At a glance</p>
+                                    <h2 id="summary-title">State-level overview</h2>
+                                </div>
+                                <p>Public tracker includes Tier 1 and Tier 2 measures.</p>
+                            </div>
+
+                            <div class="stats-grid" aria-label="Tracker statistics">
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="total">34</span>
+                                    <span class="stat-label">Tracked measures</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="states">21</span>
+                                    <span class="stat-label">States with tracked measures</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="enacted">18</span>
+                                    <span class="stat-label">Enacted</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="failed">8</span>
+                                    <span class="stat-label">Failed</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel map-panel" aria-labelledby="map-title">
+                            <div class="panel-heading map-heading">
+                                <div>
+                                    <p class="panel-kicker">Geographic view</p>
+                                    <h2 id="map-title">Tracked legislation by state</h2>
+                                </div>
+                                <p id="map-summary">21 states have tracked measures.</p>
+                            </div>
+                            <div class="map-toolbar">
+                                <div class="map-legend" aria-label="Measure count legend">
+                                    <span><i class="map-swatch count-0" aria-hidden="true"></i>None</span>
+                                    <span><i class="map-swatch count-1" aria-hidden="true"></i>1 measure</span>
+                                    <span><i class="map-swatch count-2" aria-hidden="true"></i>2 measures</span>
+                                    <span><i class="map-swatch count-3" aria-hidden="true"></i>3+ measures</span>
+                                </div>
+                                <button id="map-clear-state" class="text-button" type="button" hidden>Show all states</button>
+                            </div>
+                            <div class="state-map-frame" id="state-map-frame" role="img" aria-labelledby="map-title" aria-describedby="map-description">
+                                <svg id="state-map" class="state-map" viewBox="0 0 959 593" aria-hidden="true" focusable="false">
+                                    <g id="state-map-paths"></g>
+                                    <g class="map-dc" aria-hidden="true">
+                                        <path d="M801.8,253.8 l-1.1-1.6 -1-0.8 1.1-1.6 2.2,1.5z"></path>
+                                        <circle cx="801.3" cy="251.8" r="5"></circle>
+                                    </g>
+                                </svg>
+                                <div id="map-tooltip" class="map-tooltip" hidden></div>
+                            </div>
+                            <p class="map-note" id="map-description">Darker shading indicates more tracked measures. Mouse users can select a state on the map; an equivalent keyboard-accessible <a href="#state-title">Measures by state</a> list appears below.</p>
+                        </section>
+
+                        <section class="panel filter-panel" aria-labelledby="filter-title">
+                            <div class="panel-heading compact-heading">
+                                <div>
+                                    <p class="panel-kicker">Explore the data</p>
+                                    <h2 id="filter-title">Find legislation</h2>
+                                </div>
+                                <button id="clear-filters" class="text-button" type="button">Clear filters</button>
+                            </div>
+
+                            <div class="filter-controls">
+                                <div class="filter-group filter-search">
+                                    <label for="search-filter">Search measures</label>
+                                    <input id="search-filter" class="filter-input" type="search" placeholder="Bill number, title, summary, target…" autocomplete="off">
+                                </div>
+                                <div class="filter-group">
+                                    <label for="state-filter">State</label>
+                                    <select id="state-filter" class="filter-select">
+                                        <option value="all">All states</option>
+                                    </select>
+                                </div>
+                                <div class="filter-group">
+                                    <label for="status-filter">Status</label>
+                                    <select id="status-filter" class="filter-select">
+                                        <option value="all">All statuses</option>
+                                        <option value="enacted">Enacted</option>
+                                        <option value="pending">Pending</option>
+                                        <option value="failed">Failed / did not advance</option>
+                                    </select>
+                                </div>
+                                <div class="filter-group">
+                                    <label for="category-filter">Category</label>
+                                    <select id="category-filter" class="filter-select">
+                                        <option value="all">All categories</option>
+                                        <option value="property">Property restrictions</option>
+                                        <option value="contract">Employment &amp; contracting</option>
+                                        <option value="education">Education</option>
+                                        <option value="research">Research access &amp; security</option>
+                                        <option value="financial">Finance</option>
+                                        <option value="infrastructure">Infrastructure &amp; technology</option>
+                                        <option value="other">Other restrictions</option>
+                                    </select>
+                                </div>
+                                <div class="filter-group">
+                                    <label for="tier-filter">Affected group</label>
+                                    <select id="tier-filter" class="filter-select">
+                                        <option value="all">All tracked groups</option>
+                                        <option value="1">Tier 1 — LPRs and/or citizens</option>
+                                        <option value="2">Tier 2 — visa applicants/holders and other non-LPRs</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+
+                        <div class="overview-grid">
+                            <section class="panel status-panel" aria-labelledby="status-title">
+                                <div class="panel-heading compact-heading">
+                                    <div>
+                                        <p class="panel-kicker">Current outcomes</p>
+                                        <h2 id="status-title">Legislation by status</h2>
+                                    </div>
+                                </div>
+                                <div class="status-summary" id="status-summary">
+                                    <button type="button" class="status-summary-item" data-status-filter="enacted">
+                                        <span class="status-dot enacted" aria-hidden="true"></span>
+                                        <span>Enacted</span>
+                                        <strong data-status-count="enacted">18</strong>
+                                    </button>
+                                    <button type="button" class="status-summary-item" data-status-filter="pending">
+                                        <span class="status-dot pending" aria-hidden="true"></span>
+                                        <span>Pending</span>
+                                    <strong data-status-count="pending">8</strong>
+                                    </button>
+                                    <button type="button" class="status-summary-item" data-status-filter="failed">
+                                        <span class="status-dot failed" aria-hidden="true"></span>
+                                        <span>Failed</span>
+                                        <strong data-status-count="failed">8</strong>
+                                    </button>
+                                </div>
+                            </section>
+
+                            <section class="panel state-panel" aria-labelledby="state-title">
+                                <div class="panel-heading compact-heading">
+                                    <div>
+                                        <p class="panel-kicker">Geographic spread</p>
+                                        <h2 id="state-title">Measures by state</h2>
+                                    </div>
+                                </div>
+                                <div id="state-summary-list" class="state-summary-list" aria-labelledby="state-title" aria-describedby="map-description"></div>
+                            </section>
+                        </div>
+
+                        <section class="panel method-link-panel" aria-labelledby="method-link-title">
+                            <div>
+                                <p class="panel-kicker">How this works</p>
+                                <h2 id="method-link-title">One methodology for federal and state tracking</h2>
+                                <p>Read the inclusion rules, tier definitions, source policy, status meanings, review process, and update cadence in one place.</p>
+                            </div>
+                            <a class="action-button primary" href="methodology.html">Read the methodology</a>
+                        </section>
+
+                        <section class="panel contribute-panel" id="contact" aria-labelledby="contact-title">
+                            <div>
+                                <p class="panel-kicker">Community submissions</p>
+                                <h2 id="contact-title">Help us keep the tracker complete</h2>
+                                <p>Share an official state-legislature link for a measure we may have missed, report a correction, or send the tracker team a question.</p>
+                                <p class="submission-note">Submissions use public GitHub issues. Do not include private or sensitive information.</p>
+                            </div>
+                            <div class="contribute-actions">
+                                <a class="action-button secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <section class="panel feed-panel" id="bills" aria-labelledby="bills-title">
+                        <header class="feed-header">
+                            <div>
+                                <p class="panel-kicker">Legislation feed</p>
+                                <h2 id="bills-title">Tracked measures</h2>
+                            </div>
+                            <p id="results-count" class="results-count" aria-live="polite">34 measures</p>
+                        </header>
+                        <div class="bills-list" id="bills-list"></div>
+                        <button type="button" id="load-more" class="load-more" hidden>Load more measures</button>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="site-container footer-inner">
+            <div>
+                <p class="footer-title">Civil Rights Legislation Tracker for Chinese Americans</p>
+                <p>Monitoring federal and state legislation through official public sources.</p>
+            </div>
+            <p class="footer-disclaimer">For informational purposes only; not legal advice. Legislative status can change after publication.</p>
+        </div>
+    </footer>
+
+    <script src="site.js"></script>
+    <script src="bills-data.js"></script>
+    <script src="us-map-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

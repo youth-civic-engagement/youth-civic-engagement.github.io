@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodology | Civil Rights Legislation Tracker for Chinese Americans</title>
+    <meta name="description" content="How the Civil Rights Legislation Tracker for Chinese Americans discovers, verifies, classifies, and updates federal and state legislation.">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Tracker Methodology">
+    <meta property="og:description" content="Scope, official sources, classification rules, status meanings, and update process for the legislation tracker.">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header">
+        <div class="site-container header-inner">
+            <a class="brand" href="index.html" aria-label="Civil Rights Legislation Tracker for Chinese Americans home">
+                <span class="brand-mark" aria-hidden="true">⚖</span>
+                <span>
+                    <span class="brand-name">Civil Rights Legislation Tracker for Chinese Americans</span>
+                    <span class="brand-kicker">Federal &amp; state monitor</span>
+                </span>
+            </a>
+            <div class="header-controls">
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="index.html">Overview</a>
+                    <a href="federal.html">Federal</a>
+                    <a href="states.html">States</a>
+                    <a href="methodology.html" aria-current="page">Methodology</a>
+                    <a href="why.html">Why we track</a>
+                </nav>
+                <div class="header-actions">
+                    <a class="header-action secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                    <a class="header-action primary" href="#contact" data-github-issue="report_bill.yml">Report a bill</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content" class="methodology-main">
+        <section class="history-hero">
+            <div class="site-container history-hero-inner">
+                <p class="eyebrow">Methodology</p>
+                <h1>How the tracker identifies and classifies legislation</h1>
+                <p>This page explains the tracker’s scope, official sources, review process, classification rules, evidence standards, and limitations.</p>
+                <p class="history-scope-note">Methodology reviewed August 31, 2026</p>
+            </div>
+        </section>
+
+        <div class="site-container methodology-layout">
+            <section class="panel methodology-intro" aria-labelledby="scope-title">
+                <p class="panel-kicker">Scope of review</p>
+                <h2 id="scope-title">What the public tracker includes</h2>
+                <p>The tracker reviews current and recent measures from the U.S. Congress, all 50 states, and the District of Columbia, together with enacted laws that remain relevant to its scope. A measure is considered for inclusion when its operative text creates, authorizes, or conditions a legal consequence for an individual through at least one of the following classifications:</p>
+                <ul class="methodology-rules-list">
+                    <li>Chinese nationality, citizenship, residence, ancestry, ethnicity, or national origin stated in the text;</li>
+                    <li>a broader category—such as “foreign adversary,” “country of concern,” or “national of a covered country”—whose incorporated definition includes China; or</li>
+                    <li>a nationality-neutral individual classification, such as a specified immigration status, that the measure expressly applies to Chinese nationals.</li>
+                </ul>
+                <p>Selection is based on the legal reach of the text, not a sponsor’s presumed motive, the measure’s political support, or its predicted likelihood of passage. Full-text keyword matches are the primary discovery method, but candidates may also be identified through manual review or reports from readers. The route by which a candidate is found does not determine whether it qualifies.</p>
+                <div class="methodology-card-grid eligibility-grid">
+                    <article class="methodology-card">
+                        <h3>Included after review</h3>
+                        <p>Measures regulating an individual’s property, education, research access, employment, contracting, immigration, finance, benefits, civil liberties, or another legal interest through a covered classification.</p>
+                    </article>
+                    <article class="methodology-card">
+                        <h3>Excluded from public results</h3>
+                        <p>Commendations and protective civil-rights measures; measures directed only at governments, companies, procurement, trade, sanctions, or export controls; and keyword matches without a qualifying individual legal effect.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="panel methodology-section" aria-labelledby="sources-title">
+                <p class="panel-kicker">Sources and collection</p>
+                <h2 id="sources-title">Official text is the primary evidence</h2>
+                <div class="methodology-source-grid">
+                    <article>
+                        <h3>Federal corpus</h3>
+                        <p>Bill and resolution text comes from the U.S. Government Publishing Office’s <a href="https://www.govinfo.gov/app/collection/BILLS" target="_blank" rel="noopener noreferrer">GovInfo Congressional Bills collection</a>. “BILLS” is the collection’s data code.</p>
+                        <p>Titles, summaries, actions, and status come from the official <a href="https://www.govinfo.gov/bulkdata/BILLSTATUS" target="_blank" rel="noopener noreferrer">Congress.gov Bill Status XML collection</a>. The current review covers both sessions of the 119th Congress, beginning January 3, 2025.</p>
+                    </article>
+                    <article>
+                        <h3>State corpus</h3>
+                        <p>State scrapers query official legislature websites for all 50 states and the District of Columbia. Depending on the source, they search an official full-text index or enumerate official HTML and PDF bill documents and search extracted text locally.</p>
+                        <p>At the latest search-depth verification, 50 jurisdictions had live-verified full-text discovery. Indiana’s full-text path is implemented but awaits live re-verification because the official site returned its application shell instead of bill data during the August 18, 2026 check.</p>
+                    </article>
+                </div>
+                <p class="methodology-source-policy"><strong>Source and failure policy:</strong> Public bill links must lead to official government sources. Secondary aggregators and news reports are not accepted as bill sources. A source outage, malformed response, or failed document extraction is reported as an error; it is never treated as a search with zero results.</p>
+            </section>
+
+            <section class="panel methodology-section" aria-labelledby="process-title">
+                <p class="panel-kicker">Review process</p>
+                <h2 id="process-title">Candidates come from full-text searches and human reports</h2>
+                <ol class="methodology-steps">
+                    <li>
+                        <div>
+                            <h3>Identify candidates</h3>
+                            <p>The primary method searches full bill text using keyword groups covering identity, foreign-adversary definitions, property, education, research, employment, immigration, finance, infrastructure, benefits, and civil liberties. Reviewers may also select measures manually, and readers may report measures for consideration. A search match or human report is a lead, not evidence that a measure qualifies.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>Confirm identity and text version</h3>
+                            <p>The reviewer verifies the jurisdiction, session, bill number, official bill page, and the text version that supports the record. Companion measures remain distinct records.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>Read the operative provisions</h3>
+                            <p>Review focuses on definitions, incorporated lists, citizenship and lawful permanent resident exemptions, covered conduct, geographic scope, penalties, divestment requirements, and enforcement authority.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <h3>Verify status and classify</h3>
+                            <p>Official actions are checked before a human reviewer assigns scope, tier, category, affected group, and public status. Ambiguous federal candidates may remain visibly labeled “scope review pending.”</p>
+                        </div>
+                    </li>
+                </ol>
+            </section>
+
+            <section class="panel methodology-section" aria-labelledby="classification-title">
+                <p class="panel-kicker">Classification</p>
+                <h2 id="classification-title">Tiers describe the population the text can reach</h2>
+                <p>Tiers record the outer reach of the measure’s definitions. They are neither rankings of severity nor estimates of political importance, and Tier 1 does not mean that every Chinese American is covered.</p>
+                <div class="methodology-card-grid">
+                    <article class="methodology-card">
+                        <span class="tier-label tier-1">Tier 1</span>
+                        <h3>Lawful permanent residents (LPRs) and/or citizens</h3>
+                        <p>The operative language can individually restrict lawful permanent residents or U.S. citizens, or it lacks a reliable exemption removing those groups.</p>
+                    </article>
+                    <article class="methodology-card">
+                        <span class="tier-label tier-2">Tier 2</span>
+                        <h3>Visa applicants, visa holders, and other non-LPRs</h3>
+                        <p>The measure directly restricts visa applicants, visa holders, nonresident aliens, or other foreign nationals while exempting or not reaching citizens and lawful permanent residents.</p>
+                    </article>
+                </div>
+                <div class="methodology-callout">
+                    <strong>Categories describe the primary restriction.</strong>
+                    <p>Research access and security is separate from employment because some measures regulate laboratory, data, visitor, or institutional access without creating an employment rule. Measures principally regulating hiring or contracts remain under employment and contracting. Mixed measures are assigned to the category that best describes their central operative provision, with other effects explained in the record.</p>
+                </div>
+                <div class="methodology-callout">
+                    <strong>Scope review is separate from legislative status.</strong>
+                    <p>The federal page includes some high-signal measures requiring a final scope decision, especially where coverage turns on PRC government, Chinese Communist Party, employment, agency, or other conduct-based affiliation rather than nationality alone.</p>
+                </div>
+            </section>
+
+            <section class="panel methodology-section" aria-labelledby="evidence-title">
+                <p class="panel-kicker">Evidence standards</p>
+                <h2 id="evidence-title">Claims are limited to what the cited evidence supports</h2>
+                <div class="methodology-card-grid evidence-grid">
+                    <article class="methodology-card">
+                        <h3>Legal effect</h3>
+                        <p>Descriptions of who is covered and what is restricted must be traceable to operative text, definitions, incorporated authorities, and exemptions in an identified bill version.</p>
+                    </article>
+                    <article class="methodology-card">
+                        <h3>Practical or disparate effect</h3>
+                        <p>A claim about real-world impact requires a dated, cited source and is labeled as context. It is not presented as the measure’s direct legal effect.</p>
+                    </article>
+                    <article class="methodology-card">
+                        <h3>Motive and intent</h3>
+                        <p>The tracker does not infer a sponsor’s motive from a keyword, country reference, or predicted impact. Statements about intent require direct evidence and attribution.</p>
+                    </article>
+                    <article class="methodology-card">
+                        <h3>Uncertainty and correction</h3>
+                        <p>Unresolved classifications are labeled rather than presented as settled. Automated checks test data shape, totals, page structure, scraper behavior, and official-link policy; reported corrections are reviewed against the source record.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="panel methodology-section" aria-labelledby="status-title">
+                <p class="panel-kicker">Status and counting rules</p>
+                <h2 id="status-title">What the labels mean</h2>
+                <p><strong>Pending</strong> describes a measure’s legislative status. <strong>Scope review pending</strong> describes the tracker’s editorial classification and does not imply legislative activity.</p>
+                <div class="methodology-card-grid three-column">
+                    <article class="methodology-card status-method-card">
+                        <span class="status-badge enacted">Enacted</span>
+                        <p>Signed, otherwise became law, or published as an enacted measure.</p>
+                    </article>
+                    <article class="methodology-card status-method-card">
+                        <span class="status-badge pending">Pending</span>
+                        <p>Not enacted and not formally failed. This does not imply momentum; a bill referred to committee with no further action remains pending while its Congress or legislative session is open.</p>
+                    </article>
+                    <article class="methodology-card status-method-card">
+                        <span class="status-badge failed">Failed</span>
+                        <p>Vetoed, defeated, indefinitely postponed, declared inexpedient, or otherwise did not advance before the relevant deadline.</p>
+                    </article>
+                </div>
+                <ul class="methodology-rules-list">
+                    <li>House and Senate companion bills are counted as separate measures. A proposal family groups substantively related companion measures for context without merging their legislative records.</li>
+                    <li>State measures and federal measures are counted separately; federal candidates never change the state map.</li>
+                    <li>The historical items discussed on the <a href="why.html">Why We Track This</a> page are excluded from dashboard totals. Repealed laws are not counted as current tracked measures.</li>
+                </ul>
+            </section>
+
+            <section class="panel methodology-section" aria-labelledby="updates-title">
+                <p class="panel-kicker">Updates and limitations</p>
+                <h2 id="updates-title">How current the tracker is</h2>
+                <div class="methodology-source-grid">
+                    <article>
+                        <h3>State monitoring</h3>
+                        <p>The state discovery and status tools are run periodically, with an operational goal of every few days. They report new candidates and status changes for review; they do not automatically publish edits to the website. The current public state dataset was last fully reviewed August 18, 2026.</p>
+                        <p>A state card’s “Record updated” date is tracker metadata indicating when that record was last revised or verified; it is not necessarily the legislature’s latest action date.</p>
+                    </article>
+                    <article>
+                        <h3>Federal monitoring</h3>
+                        <p>The federal classifications reflect a point-in-time full-text sweep reviewed August 21, 2026. Official legislative actions and committee assignments were refreshed August 26, 2026. Recurring federal collection is planned but is not yet automated.</p>
+                    </article>
+                </div>
+                <p class="methodology-source-policy"><strong>Limitations:</strong> Legislative websites and schemas change; some sources cap search results; text may be published after introduction; optical or HTML extraction may fail; incorporated federal lists can change; and reasonable readers can disagree about legal effect. Search terms can produce false positives and can miss relevant language. The tracker is an informational research project, not legal advice.</p>
+            </section>
+
+            <section class="panel method-link-panel methodology-history-link" aria-labelledby="history-link-title">
+                <div>
+                    <p class="panel-kicker">Historical context</p>
+                    <h2 id="history-link-title">Why scrutinize nationality-based restrictions?</h2>
+                    <p>The methodology explains how measures are selected. The historical review explains why the project exists, centering the Chinese Exclusion Act and Congress’s formal expression of regret.</p>
+                </div>
+                <a class="action-button primary" href="why.html">Why we track this</a>
+            </section>
+
+            <section class="panel history-contact" id="contact" aria-labelledby="methodology-contact-title">
+                <div>
+                    <p class="panel-kicker">Questions and corrections</p>
+                    <h2 id="methodology-contact-title">Help us improve the process</h2>
+                    <p>Report a missed bill, suggest a classification correction, or ask about a source through GitHub.</p>
+                </div>
+                <div class="contribute-actions">
+                    <a class="action-button dark-outline" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="site-container footer-inner">
+            <div>
+                <p class="footer-title">Civil Rights Legislation Tracker for Chinese Americans</p>
+                <p>Monitoring federal and state legislation through official public sources.</p>
+            </div>
+            <p class="footer-disclaimer">For informational purposes only; not legal advice. Methodology and coverage can evolve as sources change.</p>
+        </div>
+    </footer>
+
+    <script src="site.js"></script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federal Legislation | Civil Rights Legislation Tracker for Chinese Americans</title>
+    <meta name="description" content="Provisional review of 119th Congress legislation affecting people based on Chinese nationality, citizenship, or China-related affiliations.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Federal Legislation | Civil Rights Legislation Tracker for Chinese Americans">
+    <meta property="og:description" content="Official-source federal legislation findings from a full-text scan of the 119th Congress.">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚖️</text></svg>">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <header class="header">
+        <div class="site-container header-inner">
+            <a class="brand" href="index.html" aria-label="Civil Rights Legislation Tracker for Chinese Americans home">
+                <span class="brand-mark" aria-hidden="true">⚖</span>
+                <span>
+                    <span class="brand-name">Civil Rights Legislation Tracker for Chinese Americans</span>
+                    <span class="brand-kicker">Federal &amp; state monitor</span>
+                </span>
+            </a>
+            <div class="header-controls">
+                <nav class="nav" aria-label="Main navigation">
+                    <a href="index.html">Overview</a>
+                    <a href="federal.html" aria-current="page">Federal</a>
+                    <a href="states.html">States</a>
+                    <a href="methodology.html">Methodology</a>
+                    <a href="why.html">Why we track</a>
+                </nav>
+                <div class="header-actions">
+                    <a class="header-action secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                    <a class="header-action primary" href="#contact" data-github-issue="report_bill.yml">Report a bill</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="dashboard" aria-labelledby="page-title">
+            <div class="site-container">
+                <header class="page-intro">
+                    <div>
+                        <p class="eyebrow">119th Congress review</p>
+                        <h1 id="page-title">Federal legislation under review</h1>
+                        <p class="page-summary">A separate review of pending federal measures that may directly restrict people based on Chinese nationality or may reach them through a broader affiliation-based classification. Tier 1 can reach lawful permanent residents (LPRs) and/or U.S. citizens. Tier 2 reaches visa applicants, visa holders, nonresident aliens, or other non-LPR foreign nationals without reaching citizens or LPRs.</p>
+                    </div>
+                    <p class="last-reviewed"><span aria-hidden="true">●</span> Classifications reviewed August 21, 2026 · legislative metadata refreshed August 26, 2026</p>
+                </header>
+
+                <div class="federal-notice" role="note">
+                    <strong>Scope review pending:</strong> These measures were identified through a broad full-text sweep and are shown separately from the published state records. Association- and conduct-based measures still require a final scope decision.
+                </div>
+
+                <div class="dashboard-layout federal-dashboard-layout">
+                    <div class="overview-column" id="overview">
+                        <section class="panel summary-panel" aria-labelledby="summary-title">
+                            <div class="panel-heading">
+                                <div>
+                                    <p class="panel-kicker">At a glance</p>
+                                    <h2 id="summary-title">Federal findings</h2>
+                                </div>
+                                <p>33 measures represent 26 proposal families; companion bills are separate measures.</p>
+                            </div>
+                            <div class="stats-grid" aria-label="Federal sweep statistics">
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="total">33</span>
+                                    <span class="stat-label">Candidate measures</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="families">26</span>
+                                    <span class="stat-label">Proposal families</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="tier1">18</span>
+                                    <span class="stat-label">Tier 1 candidates</span>
+                                </div>
+                                <div class="stat-card">
+                                    <span class="stat-number" data-stat="tier2">15</span>
+                                    <span class="stat-label">Tier 2 candidates</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel filter-panel" aria-labelledby="filter-title">
+                            <div class="panel-heading compact-heading">
+                                <div>
+                                    <p class="panel-kicker">Explore the findings</p>
+                                    <h2 id="filter-title">Find federal legislation</h2>
+                                </div>
+                                <button id="clear-filters" class="text-button" type="button">Clear filters</button>
+                            </div>
+                            <div class="filter-controls federal-filter-controls">
+                                <div class="filter-group filter-search">
+                                    <label for="search-filter">Search measures</label>
+                                    <input id="search-filter" class="filter-input" type="search" placeholder="Bill number, title, affected group, restriction…" autocomplete="off">
+                                </div>
+                                <div class="filter-group">
+                                    <label for="category-filter">Category</label>
+                                    <select id="category-filter" class="filter-select">
+                                        <option value="all">All categories</option>
+                                        <option value="property">Property restrictions</option>
+                                        <option value="immigration">Immigration &amp; visas</option>
+                                        <option value="education">Education</option>
+                                        <option value="research">Research access &amp; security</option>
+                                        <option value="employment">Employment restrictions</option>
+                                        <option value="civic">Civic participation</option>
+                                    </select>
+                                </div>
+                                <div class="filter-group">
+                                    <label for="tier-filter">Affected group</label>
+                                    <select id="tier-filter" class="filter-select">
+                                        <option value="all">All candidate groups</option>
+                                        <option value="1">Tier 1 — LPRs and/or citizens</option>
+                                        <option value="2">Tier 2 — visa applicants/holders and other non-LPRs</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="panel state-panel" aria-labelledby="themes-title">
+                            <div class="panel-heading compact-heading">
+                                <div>
+                                    <p class="panel-kicker">Recurring themes</p>
+                                    <h2 id="themes-title">Where restrictions appear</h2>
+                                </div>
+                            </div>
+                            <ul class="federal-theme-list">
+                                <li><span>Property and land</span><strong data-category-count="property">13</strong></li>
+                                <li><span>Immigration and visas</span><strong data-category-count="immigration">10</strong></li>
+                                <li><span>Research access and security</span><strong data-category-count="research">4</strong></li>
+                                <li><span>Education</span><strong data-category-count="education">2</strong></li>
+                                <li><span>Employment</span><strong data-category-count="employment">2</strong></li>
+                                <li><span>Civic participation</span><strong data-category-count="civic">2</strong></li>
+                            </ul>
+                        </section>
+
+                        <section class="panel method-link-panel" aria-labelledby="federal-method-link-title">
+                            <div>
+                                <p class="panel-kicker">How this works</p>
+                                <h2 id="federal-method-link-title">How federal candidates were selected</h2>
+                                <p>The shared methodology explains the federal full-text sources, scope review, status labels, companion-measure counting, and relationship to state totals.</p>
+                            </div>
+                            <a class="action-button primary" href="methodology.html">Read the methodology</a>
+                        </section>
+
+                        <section class="panel contribute-panel" id="contact" aria-labelledby="contact-title">
+                            <div>
+                                <p class="panel-kicker">Community submissions</p>
+                                <h2 id="contact-title">Know another federal measure?</h2>
+                                <p>Share an official Congress.gov or GovInfo source, report a correction, or contact the tracker team.</p>
+                                <p class="submission-note">Submissions use public GitHub issues. Do not include private or sensitive information.</p>
+                            </div>
+                            <div class="contribute-actions">
+                                <a class="action-button secondary" href="#contact" data-github-issue="contact.yml">Contact us</a>
+                            </div>
+                        </section>
+                    </div>
+
+                    <section class="panel feed-panel" id="bills" aria-labelledby="bills-title">
+                        <header class="feed-header">
+                            <div>
+                                <p class="panel-kicker">Federal legislation feed</p>
+                                <h2 id="bills-title">Candidate measures</h2>
+                            </div>
+                            <p id="results-count" class="results-count" aria-live="polite">33 measures</p>
+                        </header>
+                        <div class="bills-list" id="bills-list"></div>
+                        <button type="button" id="load-more" class="load-more" hidden>Load more measures</button>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="site-container footer-inner">
+            <div>
+                <p class="footer-title">Civil Rights Legislation Tracker for Chinese Americans</p>
+                <p>Monitoring federal and state legislation through official public sources.</p>
+            </div>
+            <p class="footer-disclaimer">For informational purposes only; not legal advice. Federal scope classifications on this page remain under review.</p>
+        </div>
+    </footer>
+
+    <script src="site.js"></script>
+    <script src="federal-bills-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
