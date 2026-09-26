@@ -131,8 +131,8 @@ const billsData = [
     "target": "Foreign students who are citizens of foreign adversaries (China, Russia, North Korea, Iran) and not US citizens, lawful permanent residents, or asylees, pursuing qualifying STEM programs (chemical, electrical, industrial, mechanical engineering; artificial intelligence; computer science; microbiology; virology)",
     "restrictions": "Educational restrictions",
     "penalties": "Denial of admission; unenrollment",
-    "summary": "Enacted as Public Law 131 (signed March 5, 2026). Requires state educational institutions, beginning August 15, 2026, to complete a 'foreign influence and research security review' before admitting foreign students into qualifying STEM programs — reviewing affiliations, outside funding, and family ties (whether the student, spouse, parents, siblings, grandparents, aunts, or uncles are government employees, political party members, or members of united front organizations of a foreign adversary). Institutions may not admit students found to be agents of a foreign adversary or who refuse to provide information, must unenroll students who accept foreign-adversary funding, and must keep screening records for 10 years. Students enrolled by August 14, 2026 are grandfathered. Also creates a foreign agent registration chapter with the Attorney General (effective July 1, 2026, with reporting of >10% revenue transactions) and bars prohibited persons (agents of foreign adversaries) from acquiring Indiana real property.",
-    "civilRightsImpact": "Applies to citizens of foreign adversaries (including China) who are not US citizens, LPRs, or asylees — including F-1 and J-1 students in STEM programs — and requires screening of students and relatives, including political-party membership questions. Refusal to cooperate can result in denial of admission, and covered foreign-adversary funding can require unenrollment. Unlike the failed House version (HB 1099), this measure was enacted. The real-property and registration provisions apply to persons found to be agents of a foreign adversary (conduct-based, not nationality-based).",
+    "summary": "Enacted as Public Law 131 (signed March 5, 2026). Requires state educational institutions, beginning August 15, 2026, to complete a 'foreign influence and research security review' before admitting foreign students into qualifying STEM programs — reviewing affiliations, outside funding, and family ties (whether the student, spouse, parents, siblings, grandparents, aunts, or uncles are government employees, political party members, or members of united front organizations of a foreign adversary). Institutions may not admit students found to be agents of a foreign adversary or who refuse to provide information, must unenroll students who accept foreign-adversary funding, and must keep screening records for 10 years. Students enrolled by August 14, 2026 are grandfathered. Also creates a foreign agent registration chapter with the Attorney General (effective July 1, 2026, with reporting of >10% revenue transactions) and bars prohibited persons — including individuals who are citizens of, or domiciled in, a foreign adversary (with U.S.-citizen/LPR/asylee carve-outs) — from acquiring Indiana real property.",
+    "civilRightsImpact": "Applies to citizens of foreign adversaries (including China) who are not US citizens, LPRs, or asylees — including F-1 and J-1 students in STEM programs — and requires screening of students and relatives, including political-party membership questions. Refusal to cooperate can result in denial of admission, and covered foreign-adversary funding can require unenrollment. Unlike the failed House version (HB 1099), this measure was enacted. The real-property ban applies to 'prohibited persons' (citizens of, or persons domiciled in, a foreign adversary; U.S. citizens, LPRs, and asylees carved out) — a nationality/domicile trigger, not an agent finding. The registration provisions apply to agents of a foreign adversary, defined conduct-based (acting at the direction/control of, and financed by, a foreign adversary government).",
     "keyProvisions": [
       "Foreign influence and research security review before admitting foreign students to qualifying STEM programs (Aug 15, 2026)",
       "Review of affiliations, outside funding, and family ties to adversary governments, political parties, and united front organizations",
@@ -140,12 +140,12 @@ const billsData = [
       "Attestation against foreign-adversary funding; immediate unenrollment on violation",
       "10-year record retention; grandfathering for students enrolled by Aug 14, 2026",
       "Foreign agent registration with the Attorney General and >10% revenue transaction reporting (eff. July 1, 2026)",
-      "Real-property ban for prohibited persons (agents of foreign adversaries)"
+      "Real-property ban for prohibited persons (citizens of / persons domiciled in a foreign adversary; U.S.-citizen/LPR/asylee carve-outs)"
     ],
     "url": "https://iga.in.gov/legislative/2026/bills/senate/256/details",
     "officialUrl": "https://iga.in.gov/legislative/2026/bills/senate/256/details",
     "introducedDate": "2026-01-06",
-    "lastUpdated": "2026-03-05"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "ks/property-SB 9",
@@ -237,13 +237,13 @@ const billsData = [
     "billNumber": "HB 1788",
     "title": "Prohibited foreign party restrictions on non-agricultural real property",
     "tier": 2,
-    "status": "ENACTED (Public Chapter 733; effective July 1, 2026)",
+    "status": "ENACTED as companion SB 2424 (Public Chapter 733; signed April 13, 2026; effective July 1, 2026)",
     "session": "114th General Assembly",
     "category": "property",
     "target": "Prohibited foreign parties — individuals who are citizens or residents of ITAR-listed countries (22 C.F.R. §126.1; includes China) and not US citizens or 'qualified aliens' (8 U.S.C. §1641(b)) — and prohibited foreign-party-controlled businesses",
     "restrictions": "Property restrictions",
     "penalties": "Class A misdemeanor ($1,500 fine / up to 11 months 29 days imprisonment); $2,000 civil penalty; 2-year divestment",
-    "summary": "Public Chapter 733 (HB 1788) extends Tennessee's non-agricultural real property restriction from prohibited foreign-party-controlled businesses to prohibited foreign parties themselves — now including individuals — and replaces the prior 'resident alien' exemption with the narrower 'qualified alien' definition under 8 U.S.C. §1641(b). Prohibited foreign parties must register with the Secretary of State and divest non-agricultural real property interests within two years. Violations are a Class A misdemeanor and carry a $2,000 civil penalty. Effective July 1, 2026.",
+    "summary": "Public Chapter 733 (enacted as Senate companion SB 2424 — chaptered 'Substituted for: House Bill No. 1788') extends Tennessee's non-agricultural real property restriction from prohibited foreign-party-controlled businesses to prohibited foreign parties themselves — now including individuals — and replaces the prior 'resident alien' exemption with the narrower 'qualified alien' definition under 8 U.S.C. §1641(b). Prohibited foreign parties must register with the Secretary of State and divest non-agricultural real property interests within two years. Violations are a Class A misdemeanor and carry a $2,000 civil penalty. Effective July 1, 2026.",
     "civilRightsImpact": "Individual Chinese nationals (citizens or residents of ITAR-listed countries) who are not US citizens or 'qualified aliens' — including most nonimmigrant visa holders — become barred from acquiring non-agricultural real property in Tennessee, with registration, divestment, criminal misdemeanor, and civil penalty exposure. The narrowed exemption (previously any US resident alien; now only 8 U.S.C. §1641(b) qualified aliens such as LPRs) tightens coverage versus prior law. LPRs and US citizens remain exempt.",
     "keyProvisions": [
       "Extends the non-agricultural land restriction to prohibited foreign parties as individuals (amends Tenn. Code Title 66, Ch. 2, Part 3)",
@@ -251,12 +251,13 @@ const billsData = [
       "Replaces the prior resident-alien exemption with the narrower qualified-alien exemption",
       "Secretary of State registration; 2-year divestment",
       "Class A misdemeanor and $2,000 civil penalty for violations",
-      "Effective July 1, 2026"
+      "Effective July 1, 2026",
+      "See also Public Chapter 806 (companion SB 2233 / HB 2547), which further amends Title 66, Chapter 2, Part 3 to add mineral and water rights, lower control thresholds, and revise registration deadlines"
     ],
     "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB1788&ga=114",
-    "officialUrl": "https://www.capitol.tn.gov/Bills/114/Bill/HB1788.pdf",
+    "officialUrl": "https://www.capitol.tn.gov/Bills/114/Bill/SB2424.pdf",
     "introducedDate": "2025-02-03",
-    "lastUpdated": "2026-07-01"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "tn/property-HB 2547",
@@ -265,13 +266,13 @@ const billsData = [
     "billNumber": "HB 2547",
     "title": "Expansion of prohibited foreign party restrictions to mineral and water rights",
     "tier": 2,
-    "status": "ENACTED (Public Chapter 806; effective April 21, 2026)",
+    "status": "ENACTED as companion SB 2233 (Public Chapter 806; takes effect upon becoming law)",
     "session": "114th General Assembly",
     "category": "property",
     "target": "Prohibited foreign parties (individuals) and prohibited foreign-party-controlled businesses; covered interests now include mineral rights (oil, gas, coal, lignite, brine, groundwater, surface water) and designations under 15 C.F.R. Part 791 Subpart A",
     "restrictions": "Property restrictions",
     "penalties": "60-day registration; divestment; civil penalties",
-    "summary": "Public Chapter 806 (HB 2547) expands Tennessee Code §66-2-302 to cover mineral and water interests (oil, gas, coal, lignite, brine, groundwater, surface water) and updates the covered-country list to include designations under 15 C.F.R. Part 791 Subpart A. Tightens the 'significant interest' thresholds for prohibited foreign-party control from 33% to 10% for individuals and from 50% to 33% for groups acting in concert; requires registration within 60 days; adds an exception for CFIUS 'controlled coverage' transactions (31 C.F.R. §800.210). Effective April 21, 2026.",
+    "summary": "Public Chapter 806 (enacted as Senate companion SB 2233 — chaptered 'Substituted for: House Bill No. 2547') expands Tennessee Code §66-2-302 to cover mineral and water interests (oil, gas, coal, lignite, brine, groundwater, surface water) and updates the covered-country list to include designations under 15 C.F.R. Part 791 Subpart A. Tightens the 'significant interest' thresholds for prohibited foreign-party control from 33% to 10% for individuals and from 50% to 33% for groups acting in concert; requires registration within 60 days; adds an exception for CFIUS 'controlled coverage' transactions (31 C.F.R. §800.210). Takes effect upon becoming law (the chaptered text leaves the approval date blank).",
     "civilRightsImpact": "Deepens the individual-level restriction established by Public Chapter 733 by extending the prohibited-party ban to mineral and water interests — significant in Tennessee's natural gas and aquifer regions — and by lowering the interest thresholds that trigger the business-control presumption (10% held by individual prohibited foreign parties). Nonimmigrant visa holders who are citizens or residents of listed countries, including China, remain covered individuals.",
     "keyProvisions": [
       "Extends prohibited-party restrictions to mineral rights (oil, gas, coal, lignite, brine, groundwater, surface water)",
@@ -279,12 +280,13 @@ const billsData = [
       "Significant-interest thresholds lowered: 33% to 10% (individuals), 50% to 33% (groups acting in concert)",
       "60-day registration requirement",
       "CFIUS controlled-coverage exception (31 C.F.R. §800.210)",
-      "Effective April 21, 2026"
+      "Takes effect upon becoming law (signing date not verified on official sources)",
+      "Builds on Public Chapter 733 (companion SB 2424 / HB 1788), which extended the restrictions to non-agricultural land and added registration, divestiture, and the qualified-alien exemption"
     ],
     "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default?BillNumber=HB2547&ga=114",
-    "officialUrl": "https://www.capitol.tn.gov/Bills/114/Bill/HB2547.pdf",
+    "officialUrl": "https://www.capitol.tn.gov/Bills/114/Bill/SB2233.pdf",
     "introducedDate": "2025-01-23",
-    "lastUpdated": "2026-04-21"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "la/property-SB 200",
@@ -398,34 +400,6 @@ const billsData = [
     "lastUpdated": "2026-05-11"
   },
   {
-    "id": "la/education-SB 399",
-    "state": "LA",
-    "stateName": "Louisiana",
-    "billNumber": "SB 399",
-    "title": "Research and Education Protection Act (foreign-adversary affiliation screening)",
-    "tier": 1,
-    "status": "ENACTED (Act 505; effective Jan 1, 2027)",
-    "session": "2026 Regular Session",
-    "category": "education",
-    "target": "Applicants for enrollment, employment, or research funding at Louisiana public postsecondary institutions who have current or former participation in a federally identified malign foreign talent recruitment program or affiliation with specified PRC/CCP/PLA/intelligence-linked entities",
-    "restrictions": "Educational and employment screening",
-    "penalties": "Denial, conditioning, or termination of enrollment, employment, or research opportunities; perjury and institutional penalties",
-    "summary": "Act 505 creates the Louisiana Higher Education Research Security Council and a broad foreign-adversary compliance system. Public postsecondary applicants for enrollment, employment, or research funding must disclose current or former participation in a federally identified malign foreign talent recruitment program and affiliations with specified foreign-adversary entities, including PRC government, CCP, PLA, intelligence, United Front, Entity List, and Military End-User-linked organizations. Institutions must perform an individualized risk assessment before denying, conditioning, or terminating an opportunity.",
-    "civilRightsImpact": "The disclosure and adverse-action provisions can reach US citizens and lawful permanent residents because they turn on current or former organizational affiliation, not immigration status. The law says screening must be uniform and not based solely on citizenship, nationality, or country of origin, and that mere past, incidental, or nominal CCP membership is insufficient by itself; nevertheless, Chinese-origin applicants with covered affiliations face mandatory disclosure, risk review, and possible denial or termination of education, employment, or research access.",
-    "keyProvisions": [
-      "Mandatory affiliation disclosures for enrollment, employment, and research-funding applicants",
-      "Express coverage of specified PRC, CCP, PLA, intelligence, United Front, Entity List, and Military End-User-linked entities",
-      "Individualized, fact-specific risk assessment before adverse action",
-      "Adverse action limited to articulated espionage, influence, unlawful technology-transfer, research-integrity, or legal risks",
-      "Mere past, incidental, or nominal political-party membership is not sufficient by itself",
-      "Signed as Act 505; effective January 1, 2027"
-    ],
-    "url": "https://legis.la.gov/legis/BillInfo.aspx?s=26RS&b=SB399",
-    "officialUrl": "https://legis.la.gov/legis/ViewDocument.aspx?d=1480205",
-    "introducedDate": "2026-03-09",
-    "lastUpdated": "2026-05-25"
-  },
-  {
     "id": "ok/property-HB 3431",
     "state": "OK",
     "stateName": "Oklahoma",
@@ -480,34 +454,6 @@ const billsData = [
     "lastUpdated": "2026-01-07"
   },
   {
-    "id": "ny/property-A 1452",
-    "state": "NY",
-    "stateName": "New York",
-    "billNumber": "A 1452",
-    "title": "Prohibiting governmental entities, companies, and individuals of foreign countries of particular concern from taking real property",
-    "tier": 1,
-    "status": "In Committee (Judiciary; re-referred Jan 7, 2026)",
-    "session": "2025-2026",
-    "category": "property",
-    "target": "Governmental entities of particular concern and companies majority-owned/controlled by them (US State Dept list — includes China), and any individual who is a citizen of a foreign country of particular concern — no exemption for lawful permanent residents — taking real property in New York",
-    "restrictions": "Property restrictions",
-    "penalties": "Not specified",
-    "summary": "Would amend N.Y. Real Property Law §10 to bar (a) governmental entities of foreign countries of particular concern, (b) companies majority-owned or controlled by such entities, and (c) any individual who is a citizen of a foreign country of particular concern from taking real property in New York, and would require disposition of existing covered holdings. The individual provision contains no LPR or US-citizen exemption and covers all real property, including residential property. Introduced and referred to the Assembly Judiciary Committee Jan 9, 2025; re-referred Jan 7, 2026. Pending; no committee vote.",
-    "civilRightsImpact": "The operative individual clause bars 'an individual who is a citizen of any foreign country of particular concern' from taking any real property in New York and contains no exemption for lawful permanent residents. Because China is on the incorporated State Department list, covered Chinese citizens, including LPRs, would be required to dispose of existing holdings and could not take new residential or other real property (Tier 1).",
-    "keyProvisions": [
-      "Bars individual citizens of countries of particular concern from taking real property in New York — no LPR or US-citizen exemption",
-      "Also bars governmental entities of particular concern and majority-owned/controlled companies",
-      "Covers all real property, including residential (amends Real Property Law §10)",
-      "Existing covered holdings would need to be disposed of",
-      "Effective immediately upon enactment; severability clause",
-      "Referred to Assembly Judiciary 1/9/2025; re-referred 1/7/2026"
-    ],
-    "url": "https://assembly.ny.gov/leg/?bn=A01452",
-    "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/A1452",
-    "introducedDate": "2025-01-09",
-    "lastUpdated": "2026-01-07"
-  },
-  {
     "id": "ny/property-S 5651",
     "state": "NY",
     "stateName": "New York",
@@ -533,7 +479,7 @@ const billsData = [
     "url": "https://assembly.ny.gov/leg/?bn=S05651",
     "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/S5651",
     "introducedDate": "2025-02-26",
-    "lastUpdated": "2026-01-07"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "ok/contract-SB 2073",
@@ -594,7 +540,7 @@ const billsData = [
     "billNumber": "HB 6735",
     "title": "Prohibiting foreign principals from acquiring interests in real property on or abutting military installations or agricultural land",
     "tier": 2,
-    "status": "In Committee (Veterans' and Military Affairs; Joint Favorable Substitute; House calendar 2025; pending)",
+    "status": "Failed (Died on House calendar; last action Mar 27, 2025)",
     "session": "2025-2026",
     "category": "property",
     "target": "Foreign principals — governments, political parties, corporations, and individuals of foreign countries of concern (China, Russia) who are not US citizens or permanent residents — with respect to real property on or abutting military installations or agricultural land",
@@ -613,7 +559,7 @@ const billsData = [
     "url": "https://www.cga.ct.gov/asp/cgabillstatus/cgabillstatus.asp?selBillType=Bill&bill_num=HB06735&which_year=2025",
     "officialUrl": "https://www.cga.ct.gov/2025/TOB/H/PDF/2025HB-06735-R02-HB.PDF",
     "introducedDate": "2025-01-09",
-    "lastUpdated": "2026-08-17"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "nj/property-S 360",
@@ -622,7 +568,7 @@ const billsData = [
     "billNumber": "S 360",
     "title": "Prohibiting sanctioned foreign governments and foreign persons from acquiring protected land adjacent to military facilities",
     "tier": 2,
-    "status": "Introduced Jan 13, 2026; referred to Senate State Government, Wagering, Tourism & Historic Preservation",
+    "status": "Pre-filed for the 2026 session; introduced pending technical review by Legislative Counsel (referred to Senate State Government, Wagering, Tourism & Historic Preservation, Jan 13, 2026)",
     "session": "222nd Legislature (2026-2027)",
     "category": "property",
     "target": "Sanctioned foreign governments and their agents or fiduciaries, and foreign persons — noncitizens who are not 'alien friends' (R.S. 46:3-18) and are nonresident aliens, plus legal entities created under foreign law or majority-owned/controlled by foreign persons or foreign legal entities — acquiring protected land within 10 miles of military facilities",
@@ -641,7 +587,7 @@ const billsData = [
     "url": "https://www.njleg.state.nj.us/bill-search/2026/S360",
     "officialUrl": "https://pub.njleg.state.nj.us/Bills/2026/S0500/360_I1.PDF",
     "introducedDate": "2026-01-13",
-    "lastUpdated": "2026-01-13"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "hi/property-SB 206",
@@ -668,32 +614,6 @@ const billsData = [
     "officialUrl": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB206_.HTM",
     "introducedDate": "2025-01-15",
     "lastUpdated": "2026-01-21"
-  },
-  {
-    "id": "ia/contract-HF 2513",
-    "state": "IA",
-    "stateName": "Iowa",
-    "billNumber": "HF 2513",
-    "title": "Prohibiting institutions of higher education from entering employment contracts with H-1B visa holders from foreign adversaries",
-    "tier": 2,
-    "status": "Failed (Died in Senate)",
-    "session": "91st General Assembly (2026)",
-    "category": "contract",
-    "target": "H-1B visa holders who are citizens of federally designated foreign adversaries (China, Russia, Iran) or state sponsors of terrorism (Venezuela, Cuba, North Korea, Syria)",
-    "restrictions": "Contract bans",
-    "penalties": "Not specified",
-    "summary": "Passed the Iowa House 68-27 on March 3, 2026. Would have prohibited the three regents universities, community colleges, and other institutions of higher education (including private colleges) from entering employment contracts on or after July 1, 2026 with individuals holding a valid H-1B visa who are citizens of nations designated as foreign adversaries by the US Secretary of Commerce or state sponsors of terrorism by the US Secretary of State. The Senate never brought the bill to a floor vote (unfinished business as of March 26, 2026) and it died at adjournment. An earlier version (HSB 536) covered Chinese citizens only; the amended bill covers all designated countries.",
-    "civilRightsImpact": "Would have barred covered Iowa colleges and universities from hiring Chinese nationals and other designated-country nationals on H-1B visas, including faculty, researchers, and staff. US citizens and lawful permanent residents are not affected because they do not hold H-1B visas. The bill passed the House and did not receive a Senate floor vote before adjournment.",
-    "keyProvisions": [
-      "Bans employment contracts with H-1B holders who are citizens of foreign adversaries or state sponsors of terrorism",
-      "Applies to regents institutions, community colleges, and other institutions of higher education (including private)",
-      "Effective date would have been July 1, 2026",
-      "Passed House 68-27 (March 3, 2026); died in the Senate without a floor vote"
-    ],
-    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2513&ga=91",
-    "officialUrl": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2513.pdf",
-    "introducedDate": "2026-01-13",
-    "lastUpdated": "2026-03-26"
   },
   {
     "id": "mo/contract-SB 1130",
@@ -732,22 +652,23 @@ const billsData = [
     "session": "2026",
     "category": "education",
     "target": "Foreign students who are citizens of foreign adversaries (China, Russia, North Korea, Iran) and not US citizens, lawful permanent residents, or asylees, in qualifying STEM programs",
-    "restrictions": "Educational restrictions; property restrictions (agents of foreign adversaries)",
+    "restrictions": "Educational restrictions; property restrictions (prohibited persons)",
     "penalties": "Denial of admission, unenrollment; $10,000 civil penalty (real property)",
-    "summary": "Passed the Indiana House 74-22 (Feb 2, 2026) but died in the Senate (Committee on Homeland Security and Transportation). Would have required state educational institutions, beginning August 15, 2026, to complete a 'foreign influence and research security review' before admitting a foreign student into qualifying programs (chemical, electrical, industrial, and mechanical engineering; artificial intelligence; computer science; microbiology; virology) — reviewing affiliations, outside funding, agreements, and whether the student, parents, siblings, spouse, grandparents, aunts, or uncles are government employees, political party members, or members of united front organizations of a foreign adversary. Institutions could not admit students found to be agents of a foreign adversary or who refused to provide information, and must unenroll students who accept foreign-adversary funding. Also prohibited 'prohibited persons' (agents of foreign adversaries) from acquiring Indiana real property, with attorney general enforcement and a $10,000 civil penalty.",
-    "civilRightsImpact": "Applies to citizens of foreign adversaries (including China) who are not US citizens, LPRs, or asylees — including F-1 and J-1 students — and requires screening of students and relatives, including political-party membership questions. Refusal to cooperate can result in denial of admission, and covered foreign-adversary funding can require unenrollment. LPRs and asylees are exempt from the student provisions. The real-property provisions apply only to persons found to be acting as agents of a foreign adversary (conduct-based, not nationality-based).",
+    "summary": "Passed the Indiana House 73-23 on the official roll call (Feb 2, 2026; the House action history records 74-22) but died in the Senate (Committee on Homeland Security and Transportation). Would have required state educational institutions, beginning August 15, 2026, to complete a 'foreign influence and research security review' before admitting a foreign student into qualifying programs (chemical, electrical, industrial, and mechanical engineering; artificial intelligence; computer science; microbiology; virology) — reviewing affiliations, outside funding, agreements, and whether the student, parents, siblings, spouse, grandparents, aunts, or uncles are government employees, political party members, or members of united front organizations of a foreign adversary. Institutions could not admit students found to be agents of a foreign adversary or who refused to provide information, and must unenroll students who accept foreign-adversary funding. Also prohibited 'prohibited persons' — including individuals who are citizens of, or domiciled in, a foreign adversary (with U.S.-citizen/LPR/asylee carve-outs) — from acquiring Indiana real property, with attorney general enforcement and a $10,000 civil penalty. Per ACLU of Indiana, this language 'was amended and added to SEA 256, which has now passed into law.'",
+    "civilRightsImpact": "Applies to citizens of foreign adversaries (including China) who are not US citizens, LPRs, or asylees — including F-1 and J-1 students — and requires screening of students and relatives, including political-party membership questions. Refusal to cooperate can result in denial of admission, and covered foreign-adversary funding can require unenrollment. LPRs and asylees are exempt from the student provisions. The real-property ban applies to 'prohibited persons' — citizens of, or persons domiciled in, a foreign adversary (U.S. citizens, LPRs, and asylees carved out) — not only to persons found to be agents; the 'agent of a foreign adversary' definition itself remains conduct-based (acting at the direction/control of, and financed by, a foreign adversary government).",
     "keyProvisions": [
       "Foreign influence and research security review before admitting foreign students to qualifying STEM programs (Aug 15, 2026)",
       "Review of affiliations, foreign funding, and family ties to adversary governments, political parties, and united front organizations",
       "Bar on admitting agents of foreign adversaries or students who refuse to provide information",
       "Attestation against foreign-adversary funding; immediate unenrollment on violation",
-      "Real-property ban and $10,000 civil penalty for prohibited persons",
-      "Passed House 74-22; died in Senate committee"
+      "Real-property ban and $10,000 civil penalty for prohibited persons (citizens of / persons domiciled in a foreign adversary)",
+      "Passed House 73-23 (roll call; action history records 74-22); died in Senate committee",
+      "Substance enacted via SEA 256 (Public Law 131)"
     ],
     "url": "https://iga.in.gov/legislative/2026/bills/house/1099/details",
     "officialUrl": "https://iga.in.gov/legislative/2026/bills/house/1099/details",
     "introducedDate": "2026-01-07",
-    "lastUpdated": "2026-02-16"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "az/property-HB 2171",
@@ -782,7 +703,7 @@ const billsData = [
     "state": "AK",
     "stateName": "Alaska",
     "billNumber": "SB 139",
-    "title": "Alaska Critical Infrastructure and Land Ownership Act (restrictions near military installations and on agricultural land)",
+    "title": "LAND; OWNERSHIP RESTRICTIONS; AG LAND",
     "tier": 1,
     "status": "Failed (Did not advance)",
     "session": "34th Legislature (2025-2026)",
@@ -802,7 +723,7 @@ const billsData = [
     "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB+139",
     "officialUrl": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0139A",
     "introducedDate": "2025-03-19",
-    "lastUpdated": "2025-04-14"
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "nh/government-HB 1606",
@@ -811,7 +732,7 @@ const billsData = [
     "billNumber": "HB 1606",
     "title": "Regulating real property ownership by Chinese nationals",
     "tier": 1,
-    "status": "Inexpedient to Legislate",
+    "status": "Inexpedient to Legislate (pre-filed Dec 10, 2025; formally introduced Jan 7, 2026)",
     "session": "2026",
     "category": "property",
     "target": "“PRC national” — defined as any citizen or agent of the People’s Republic of China who is not a U.S. citizen (express citizen exclusion; no LPR exclusion). The definition’s examples of “direct, compromising ties” include PRC state-owned-enterprise employment, CCP membership, financial links to the PRC government, pledged allegiance to PRC leaders, or acting on PRC-government orders.",
@@ -829,15 +750,15 @@ const billsData = [
     ],
     "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1595&inflect=2",
     "officialUrl": "https://gc.nh.gov/bill_status/pdf.aspx?id=23983&q=billVersion",
-    "introducedDate": "2026-01-07",
-    "lastUpdated": "2026-09-14"
+    "introducedDate": "2025-12-10",
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "nh/government-HB 1561",
     "state": "NH",
     "stateName": "New Hampshire",
     "billNumber": "HB 1561",
-    "title": "Prohibiting PRC nationals from graduate enrollment, research, and full-time employment at public colleges",
+    "title": "Prohibiting PRC nationals from graduate enrollment, research, and full-time employment at public and private colleges",
     "tier": 1,
     "status": "Inexpedient to Legislate",
     "session": "2026",
@@ -845,10 +766,10 @@ const billsData = [
     "target": "PRC nationals who are not US citizens, including lawful permanent residents and visa holders; PRC-government-affiliated entities",
     "restrictions": "Graduate enrollment, research participation, and full-time employment restrictions",
     "penalties": "Expulsion or termination, Class A misdemeanors, institutional fines and funding/accreditation consequences, federal immigration referral",
-    "summary": "As amended by the House, would have prohibited PRC nationals who are not US citizens from enrolling in master's or doctorate programs, participating in research, or holding full-time employment at New Hampshire public colleges and universities. It also barred institutional partnerships, grants, and research collaborations with PRC-government-affiliated entities.",
-    "civilRightsImpact": "Would have excluded people from graduate education, research, and public-college employment based on PRC nationality. US citizens were exempt, but lawful permanent residents and visa holders were not. Covered individuals already enrolled or employed would have had 90 days to withdraw, followed by mandatory expulsion, Class A misdemeanor exposure, and possible referral for visa revocation or deportation. Institutions and faculty also faced financial or criminal penalties, and informants could receive 10 percent of recovered funds.",
+    "summary": "As amended by the House, would have prohibited PRC nationals who are not US citizens from enrolling in master's or doctorate programs, participating in research, or holding full-time employment at New Hampshire public and private accredited colleges and universities. It also barred institutional partnerships, grants, and research collaborations with PRC-government-affiliated entities.",
+    "civilRightsImpact": "Would have excluded people from graduate education, research, and college employment at public and private accredited institutions based on PRC nationality. US citizens were exempt, but lawful permanent residents and visa holders were not. Covered individuals already enrolled or employed would have had 90 days to withdraw, followed by mandatory expulsion, Class A misdemeanor exposure, and possible referral for visa revocation or deportation. Institutions and faculty also faced financial or criminal penalties, and informants could receive 10 percent of recovered funds.",
     "keyProvisions": [
-      "Bars covered PRC nationals from master's and doctorate programs, research, and full-time employment at public institutions",
+      "Bars covered PRC nationals from master's and doctorate programs, research, and full-time employment at public and private accredited institutions",
       "US citizens are exempt; lawful permanent residents are not exempt",
       "Requires covered students and employees to withdraw within 90 days",
       "Creates Class A misdemeanor penalties and possible immigration referrals",
@@ -856,40 +777,8 @@ const billsData = [
     ],
     "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1549&inflect=2",
     "officialUrl": "https://gc.nh.gov/bill_status/pdf.aspx?id=28739&q=billVersion",
-    "introducedDate": "2026-01-07",
-    "lastUpdated": "2026-03-11"
-  },
-  {
-    "id": "az/contract-HB 2170",
-    "state": "AZ",
-    "stateName": "Arizona",
-    "billNumber": "HB 2170",
-    "title": "Bar on state IT procurement from PRC-domiciled bidders, with mandatory non-PRC-domicile certification",
-    "tier": 1,
-    "status": "VETOED",
-    "session": "2026",
-    "category": "contract",
-    "target": "Any 'company' bidding on a state contract for electronic or information technology. The defined term 'company' expressly includes 'a sole proprietorship' -- an unincorporated business with no legal existence apart from the natural person who owns it -- so the measure reaches individuals, not only firms. Coverage turns on the business's PRC domicile, and for the bidding ban additionally on PRC state, military, or party control; it never turns on the natural person's citizenship or immigration status.",
-    "restrictions": "Procurement ban plus mandatory certification of non-PRC domicile",
-    "penalties": "$100,000 civil penalty, mandatory contract termination, and a 60-month bar from bidding on any state contract, for a knowingly false certification",
-    "summary": "Adds A.R.S. Sec. 41-2553, barring a company domiciled in the People's Republic of China that is controlled by or majority owned by the PRC government, military, or ruling political party from bidding on, submitting a proposal for, or entering a state contract for electronic or information technology. Separately, and without the state-or-party-control qualifier, it requires every company that bids on such a contract to submit a certification letter attesting that it is not domiciled in the PRC and is not bidding in order to resell PRC-domiciled technology to a state agency. A knowingly false certification triggers a $100,000 civil penalty, mandatory contract termination, and a bar on bidding for any state contract for at least sixty months. A narrow exception lets a state agency buy PRC-manufactured technology where no other reasonable option exists and where not procuring it would pose a greater threat to the state than the manufacturing origin does. Titled the 'Protection Procurement Act.' Vetoed 2026-06-19.",
-    "civilRightsImpact": "The bill contains no exemption for U.S. citizens or lawful permanent residents and no immigration or nationality test of any kind. Its individual reach comes through the 'company' definition, whose first listed form is 'a sole proprietorship,' legally indistinguishable from the natural person operating it. The certification duty is the broader of the two limbs: it applies to every bidder and demands an attestation of non-PRC domicile with no state- or party-control element, so a sole proprietor whose business is PRC-domiciled cannot truthfully certify and is effectively excluded, on pain of a $100,000 penalty and a five-year debarment. Because 'domicile' includes 'the country where the majority of ownership share is held,' a U.S. citizen or LPR sole proprietor whose business is registered, headquartered, or primarily operated in China falls inside the definition, and nothing in the text removes them. That absence of a carve-out, not the breadth of practical effect, is what places this at Tier 1 under the rubric. The population actually reached is narrow, requiring a PRC-domiciled unincorporated business bidding on Arizona state IT contracts, and the tier records outer definitional reach rather than severity. Citizen/LPR exemption: None exists. The bill contains no reference to citizenship, lawful permanent residence, immigration status, national origin, or country of birth of any natural person. The only exception, Sec. 41-2553(C), runs to the purchasing state agency rather than to any bidder and does not turn on anyone's status.",
-    "keyProvisions": [
-      "Sec. 41-2553(A) first sentence: 'A company that is domiciled in the people's republic of China and that is controlled by or is majority owned by the government, military or ruling political party OF THE PEOPLE'S REPUBLIC OF CHINA may not bid on, submit a proposal for or enter into a contract with a state agency for electronic or information technology.'",
-      "Sec. 41-2553(A) second sentence, broader because it drops the control qualifier: 'Each company that submits a bid or proposal for a state contract for ELECTRONIC OR INFORMATION TECHNOLOGY shall submit a certification letter to the department certifying that the company is not a company that is domiciled in the people's republic of China and that the company is not submitting the bid or proposal for a state contract for the express purpose of reselling to a state agency electronic or information technology from a company that is domiciled in the People's Republic of China.'",
-      "Sec. 41-2553(D)(1)(a): \"'Company': (a) Means any of the following that exists for the purpose of making a profit: (i) A sole proprietorship. (ii) An organization. (iii) A corporation. (iv) An association. (v) A partnership...\" -- the sole-proprietorship limb is the individual hook.",
-      "Sec. 41-2553(D)(3): \"'Domicile' means any of the following: (a) The country where a company is registered, incorporated, headquartered, issued or listed. (b) The country where the company's affairs are primarily completed. (c) The country where the majority of ownership share is held.\"",
-      "Sec. 41-2553(D)(2)(b): for PRC-domiciled companies, 'Controlled' 'means involvement in an entity's governance structure, monitoring or internal human resources decisions consistent with the objectives prescribed in the \"opinion on strengthening the united front work of the private economy in the new era\" issued by the general office of the Chinese communist party central committee or a successor or similar document.'",
-      "Sec. 41-2553(B): a knowingly false certification makes the company 'liable for a civil penalty of $100,000,' requires the agency or department to 'terminate the contract,' and bars the company from bidding 'on any state contracts for at least sixty months.'",
-      "Sec. 41-2553(C): the sole exception, running to the purchasing agency, applies only where 'There are no other reasonable options' and where not procuring the technology 'would pose a greater threat to this state than the threat associated with the manufacture' of it by a PRC-domiciled company.",
-      "Sec. 41-2553(D)(4): 'electronic or information technology' takes the meaning in A.R.S. Sec. 18-131.",
-      "Sec. 2: short title, the 'Protection Procurement Act.'"
-    ],
-    "url": "https://apps.azleg.gov/BillStatus/BillOverview/83832?SessionId=130",
-    "officialUrl": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2170S.htm",
-    "introducedDate": "",
-    "lastUpdated": "2026-09-10",
-    "reviewStatus": "Provisional"
+    "introducedDate": "2025-12-10",
+    "lastUpdated": "2026-09-25"
   },
   {
     "id": "fl/contract-SB 1178",
@@ -1164,4 +1053,138 @@ const billsData = [
     "introducedDate": "",
     "lastUpdated": "2026-09-14"
   },
+  {
+    "id": "ia/other-HF 2513",
+    "state": "IA",
+    "stateName": "Iowa",
+    "billNumber": "HF 2513",
+    "title": "Ban on university employment contracts with H-1B holders from foreign-adversary nations",
+    "tier": 2,
+    "status": "Passed House Mar 3, 2026 (68-27); passed Senate Workforce Committee Mar 11, 2026; never got a Senate floor vote; died",
+    "session": "91st General Assembly",
+    "category": "other",
+    "target": "Individuals who hold a valid federal H-1B visa and are citizens of a federally designated foreign adversary nation or state sponsor of terrorism (15 C.F.R. §791.4 — covers mainland China, Hong Kong, and Macau; Taiwan excluded)",
+    "restrictions": "Employment restrictions",
+    "penalties": "No individual penalties stated; institutions are barred from entering the contracts",
+    "summary": "Bars Iowa regents institutions, community colleges, and private degree-granting institutions from entering employment contracts on or after July 1, 2026 with H-1B visa holders who are citizens of foreign-adversary nations or state sponsors of terrorism (§260C.14(27), new ch. 261M, §262.9(43)). Successor to HSB 536; passed the House 68-27 on March 3, 2026 (amendment H-8095 adopted); passed the Senate Workforce Committee on March 11, 2026 but never received a Senate floor vote; died at adjournment.",
+    "civilRightsImpact": "Direct employment discrimination by nationality and visa status: Chinese nationals on H-1B visas are barred from university employment in Iowa regardless of qualifications. Tier 2 — the trigger requires both H-1B status and adversary-nation citizenship, so U.S. citizens and lawful permanent residents are structurally excluded. The burden falls on workers' livelihood in the United States.",
+    "keyProvisions": [
+      "§260C.14(27): community colleges barred from covered employment contracts on/after 7/1/2026",
+      "New ch. 261M: same bar for private degree-granting institutions",
+      "§262.9(43): same bar for regents institutions",
+      "Trigger: H-1B visa holder + citizen of foreign-adversary nation or state sponsor of terrorism (15 C.F.R. §791.4)",
+      "Successor to HSB 536; House amendment H-8095 adopted before passage"
+    ],
+    "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?enhanced=true&ga=91&billName=HF2513",
+    "officialUrl": "https://www.legis.iowa.gov/docs/publications/LGR/91/HF2513.pdf",
+    "introducedDate": "2026-02-16",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "id": "wy/property-HB 224",
+    "state": "WY",
+    "stateName": "Wyoming",
+    "billNumber": "HB 224",
+    "title": "Foreign adversary property ownership ban",
+    "tier": 1,
+    "status": "Passed House Feb 12, 2025 (54-6); died in Senate (not considered for Committee of the Whole)",
+    "session": "2025 General Session",
+    "category": "property",
+    "target": "\"Foreign adversaries\" and their agents, trustees, and fiduciaries — the engrossed definition covers state sponsors of terrorism and foreign adversaries under 15 C.F.R. §791.4, expressly including a nonresident alien who is a citizen of China, with no citizen/LPR exemption anywhere in the text",
+    "restrictions": "Property restrictions",
+    "penalties": "$5,000/day civil penalty; Attorney General enforcement action; self-registration with homeland security required for the residence exception",
+    "summary": "§34-15-104(b) provides that no foreign adversary — or any agent, trustee, or fiduciary thereof — may purchase or otherwise acquire any interest in Wyoming land, except for a personal residence on not more than one acre. The definition expressly includes Chinese-citizen nonresident aliens and carries no U.S.-citizen or LPR exemption. The one-acre residence exception requires self-registration with homeland security. The engrossed version made the effective date contingent on passage of the HJ0002 constitutional amendment.",
+    "civilRightsImpact": "Tier 1 — the definition's \"including\" clause squarely covers Chinese-citizen lawful permanent residents, who remain citizens of China; no exemption exists for citizens or LPRs. A direct ban on acquiring a home or land by nationality, with a registration duty and ruinous daily penalties attached.",
+    "keyProvisions": [
+      "§34-15-104(b): ban on purchase/acquisition of any Wyoming land interest by a foreign adversary or agent/trustee/fiduciary, except a personal residence on ≤1 acre",
+      "§34-15-104(a)(ii)(C) (engrossed): \"foreign adversary\" expressly includes a nonresident alien who is a citizen of China — no citizen/LPR exemption",
+      "§34-15-104(c): self-registration with homeland security for the ≤1-acre residence exception",
+      "§34-15-104(d)/(g): $5,000/day civil penalty and Attorney General enforcement action",
+      "Effective date contingent on HJ0002 constitutional amendment (House amendment HB0224HS001)"
+    ],
+    "url": "https://wyoleg.gov/Legislation/2025/HB0224",
+    "officialUrl": "https://wyoleg.gov/2025/Engross/HB0224.pdf",
+    "introducedDate": "2025-01-29",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "id": "sc/property-H 4787",
+    "state": "SC",
+    "stateName": "South Carolina",
+    "billNumber": "H 4787",
+    "title": "Bar on recording deeds to PRC/CCP or its citizens",
+    "tier": 1,
+    "status": "In Committee (House Labor, Commerce and Industry)",
+    "session": "126th General Assembly (2025-2026)",
+    "category": "property",
+    "target": "The Chinese Communist Party, the People's Republic of China (including their agencies, institutions, instrumentalities, and political subdivisions), and \"any citizen thereof\" — with no citizen/LPR exemption; covers PRC-citizen lawful permanent residents and visa holders; Hong Kong/Macau/Taiwan reach is ambiguous on the text and not assumed",
+    "restrictions": "Property restrictions (deed recording ban)",
+    "penalties": "Any deed recorded in contravention is invalid; no separate criminal penalty stated",
+    "summary": "Adds S.C. Code §30-5-14(A): a clerk of court or register of deeds shall not record any deed conveying title or any ownership interest in real property to the Chinese Communist Party, the People's Republic of China, or any citizen thereof, and any deed recorded in contravention is invalid. Prefiled 12/16/2025 (first reading 1/13/2026); pending in the House Committee on Labor, Commerce and Industry with no further action.",
+    "civilRightsImpact": "Tier 1 — \"any citizen thereof,\" with no exemption, mechanically covers PRC-citizen green-card holders and visa holders: they cannot take title to South Carolina real property, and any recorded deed is void. The burden falls on the person acquiring the home themselves, not on a domestic counterparty. Naturalized U.S. citizens are not reached by the text's terms (pinned to PRC citizenship, not Chinese descent).",
+    "keyProvisions": [
+      "§30-5-14(A): clerks/registers shall not record any deed conveying title or ownership interest to the CCP, the PRC, or any citizen thereof; contravening deeds are invalid",
+      "§30-5-14(B): \"Chinese Communist Party\" and \"People's Republic of China\" defined to include agencies, institutions, instrumentalities, and political subdivisions",
+      "No U.S.-citizen or LPR exemption anywhere in the operative text",
+      "Prefiled 12/16/2025; in House Labor, Commerce and Industry since 1/13/2026"
+    ],
+    "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=4787&session=126&summary=B",
+    "officialUrl": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4787.htm",
+    "introducedDate": "2025-12-16",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "id": "ok/property-SB 1672",
+    "state": "OK",
+    "stateName": "Oklahoma",
+    "billNumber": "SB 1672",
+    "title": "Removal of exemptions from foreign land-ownership ban",
+    "tier": 1,
+    "status": "In Committee (Senate Judiciary)",
+    "session": "60th Legislature, 2nd Session (2026)",
+    "category": "property",
+    "target": "\"No alien or any person who is not a citizen of the United States\" — all non-citizen aliens (no country limitation on the individual branch); U.S. citizens excluded by the operative phrase; lawful permanent residents and visa holders covered",
+    "restrictions": "Property restrictions (existing land-ownership ban, tightened)",
+    "penalties": "Per the underlying 60 O.S. §121 enforcement provisions",
+    "summary": "Amends 60 O.S. §121(B): no alien or person who is not a U.S. citizen — and no foreign government adversary or entity — may acquire title to or own Oklahoma land, directly or indirectly through a business entity, trust, or foreign government enterprise, except as provided. The bill eliminates the business-entity exemption for regulated interstate commerce and CFIUS national-security agreements, and removes the Attorney General's authority to create additional exemptions. An amendment tightening an existing ban rather than a new ban; effective 11/1/2026.",
+    "civilRightsImpact": "Tier 1 — the underlying individual ban reaches all non-citizen aliens, including Chinese nationals on visas and green cards, with no LPR exemption; this bill strips the remaining escape hatches. A direct ban on acquiring a home or land by immigration status.",
+    "keyProvisions": [
+      "§121(B) rewritten: \"No alien or any person who is not a citizen of the United States ... shall acquire title to or own land\" — direct or indirect",
+      "Eliminates the business-entity exemption for regulated interstate commerce / CFIUS national-security agreements",
+      "Eliminates the Attorney General's authority to establish additional exemptions (§121(D))",
+      "Effective 11/1/2026; referred to Senate Judiciary 2/3/2026"
+    ],
+    "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=sb+1672&Session=2600",
+    "officialUrl": "https://www.oklegislature.gov/cf_pdf/2025-26%20INT/SB/SB1672%20INT.PDF",
+    "introducedDate": "2026-01-14",
+    "lastUpdated": "2026-09-25"
+  },
+  {
+    "id": "ny/property-S 6183",
+    "state": "NY",
+    "stateName": "New York",
+    "billNumber": "S 6183",
+    "title": "Residential purchase ban on non-citizens; universal seller verification",
+    "tier": 1,
+    "status": "In Committee (Senate Judiciary)",
+    "session": "2025-2026 Legislative Session",
+    "category": "property",
+    "target": "'Foreign entity' = 'an individual who is not a citizen of the United States' (includes LPRs and visa holders; no LPR exemption) — purchase ban narrowed by a primary-residence exception; plus every residential purchaser in NY is subject to seller citizenship verification at closing",
+    "restrictions": "Property restrictions (residential purchase ban; 5-year sunset)",
+    "penalties": "No verification method or penalty for non-compliance stated in the text",
+    "summary": "New RPL §284 ('House New Yorkers First Act'): for five years, 'no foreign entity shall purchase any residential real property' in NY unless to establish a primary residence — 'foreign entity' includes any individual who is not a U.S. citizen. Sellers 'shall verify that purchasers are not foreign entities prior to executing any conveyance,' i.e. a citizenship check on every residential closing. Introduced 3/6/2025 by Sen. Parker (Assembly version A4965); pending in the Senate Judiciary Committee. Reintroduction of 2023 S 9309.",
+    "civilRightsImpact": "Tier 1 — the ban reaches LPRs and visa holders by non-citizenship alone (no LPR exemption): barred from buying non-primary residential property for five years, with the duty ('shall not purchase') on the purchaser themselves. Separately, the seller-verification duty applies to every residential conveyance, subjecting all buyers — including Chinese-American citizens — to a citizenship check at closing: the paperwork-and-suspicion mechanics pattern.",
+    "keyProvisions": [
+      "RPL §284.1(b): 'foreign entity' = 'an individual who is not a citizen of the United States' (plus foreign-organized corps/trusts); no LPR exemption",
+      "§284.2(a): 5-year ban on residential purchases by foreign entities unless for establishing a primary residence",
+      "§284.2(b): sellers 'shall verify that purchasers are not foreign entities prior to executing any conveyance' — citizenship check on every residential closing; no verification method or penalty specified",
+      "§284.3: 2028 housing-data study/report (no individual duty)",
+      "Sunsets 5 years after becoming law",
+      "Introduced 3/6/2025 (Parker); Assembly version A4965; in Senate Judiciary"
+    ],
+    "url": "https://www.nysenate.gov/legislation/bills/2025/S6183",
+    "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/s6183",
+    "introducedDate": "2025-03-06",
+    "lastUpdated": "2026-09-25"
+  }
 ];
