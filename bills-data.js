@@ -1186,5 +1186,34 @@ const billsData = [
     "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/s6183",
     "introducedDate": "2025-03-06",
     "lastUpdated": "2026-09-25"
+  },
+  {
+    "id": "wi/property-SB 219-AB 218",
+    "state": "WI",
+    "stateName": "Wisconsin",
+    "billNumber": "SB 219 / AB 218",
+    "title": "Limitations on ownership of real property by foreign persons",
+    "tier": 2,
+    "status": "Failed to pass in both chambers (session ended pursuant to Senate Joint Resolution 1, Mar 23, 2026)",
+    "session": "2025-2026",
+    "category": "property",
+    "target": "\u201cCovered foreign persons\u201d: (1) a nonresident alien \u2014 defined as an alien who is not a resident of a U.S. state; (2) foreign governments (new); (3) foreign entities and entities/trusts more than 25% owned by or held for nonresident aliens, foreign entities, or foreign governments (threshold raised from 20%). A separate prong covers \u201cforeign adversaries\u201d \u2014 persons determined by the U.S. Department of Commerce to be foreign adversaries (currently China, Cuba, Iran, North Korea, Russia, and Venezuela). U.S. citizens are not aliens and are excluded; LPRs domiciled in-state are residents and appear excluded under the definition's own terms.",
+    "restrictions": "Property restrictions",
+    "penalties": "Forfeiture to the state of interests acquired in violation (military-installation prong); attorney general enforcement",
+    "summary": "The companion bills would have rewritten Wisconsin's foreign-ownership statute (Wis. Stat. 710.02). They cut the existing cap on agricultural land for covered foreign persons from 640 to 50 acres \u2014 narrowing it to land classified as agricultural for property-tax purposes (forestry land expressly excluded) \u2014 and added two new bans: (1) no covered foreign person \u2014 including nonresident aliens \u2014 may acquire, own, or hold any interest, directly or indirectly, in real property within 10 miles of a military installation; (2) no Commerce-determined foreign adversary may acquire, own, or hold any interest in real property anywhere in the state. Interests acquired in violation near military installations are forfeited to the state, with the attorney general responsible for enforcement. A Senate substitute amendment (Aug 13, 2025) would have deleted both new bans, keeping only the acreage changes; it was never adopted. Both bills died when the 2025\u20132026 session ended pursuant to Senate Joint Resolution 1 (Mar 23, 2026): SB 219 (introduced Apr 25, 2025) had a Senate Agriculture and Revenue hearing (June 4, 2025); AB 218 (introduced Apr 23, 2025) had an Assembly Agriculture hearing (Jan 14, 2026).",
+    "civilRightsImpact": "The operative classification is alienage, not nationality: the covered class is nonresident aliens \u2014 aliens who are not residents of a U.S. state \u2014 which excludes U.S. citizens (not aliens) and LPRs domiciled in-state (residents under the definition's own terms), hence Tier 2. The practical reach over visa holders already living in Wisconsin is legally untested: the better textual reading treats Wisconsin-residing F-1/H-1B holders as \u201cresidents\u201d (not covered), though a domicile-based reading could sweep in students retaining foreign domicile. What is clear is the mechanism's bite for covered persons: the 10-mile military-installation ban covers any interest in real property, directly or indirectly, with no lease exemption (leases are interests in land under Wisconsin law), and violative interests are forfeited to the state. The companion foreign-adversary total ban operates at the entity/government level (Commerce determination) and does not reach individual nationals. Both bills failed, but the military-buffer mechanism is the notable civil-liberties flag in the record.",
+    "keyProvisions": [
+      "\u201cCovered foreign person\u201d = nonresident alien (alien not a resident of a U.S. state) + foreign governments (new) + foreign entities + >25% foreign-owned entities/trusts (threshold raised from 20%)",
+      "Agricultural-land cap cut from 640 to 50 acres and narrowed to tax-classified agricultural land; forestry land expressly excluded (Wis. Stat. 710.02)",
+      "New: no covered foreign person may acquire, own, or hold any interest, directly or indirectly, in real property within 10 miles of a military installation \u2014 no lease exemption in the text",
+      "New: no Commerce-determined foreign adversary (currently China, Cuba, Iran, North Korea, Russia, Venezuela) may hold any interest in real property statewide",
+      "Forfeiture to the state of violative interests (military prong); attorney general enforcement",
+      "Senate Substitute Amendment 1 (8/13/2025) would have deleted both new bans \u2014 never adopted",
+      "Failed: both bills died at session end pursuant to Senate Joint Resolution 1 (Mar 23, 2026); SB 219 Senate hearing 6/4/2025, AB 218 Assembly hearing 1/14/2026"
+    ],
+    "url": "https://docs.legis.wisconsin.gov/2025/proposals/sb219",
+    "officialUrl": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB219.pdf",
+    "introducedDate": "2025-04-23",
+    "lastUpdated": "2026-10-03"
   }
 ];
