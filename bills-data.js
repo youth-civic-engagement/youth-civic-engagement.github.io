@@ -1215,5 +1215,30 @@ const billsData = [
     "officialUrl": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB219.pdf",
     "introducedDate": "2025-04-23",
     "lastUpdated": "2026-10-03"
+  },
+  {
+    "id": "ia/healthcare-SF 572",
+    "state": "IA",
+    "stateName": "Iowa",
+    "billNumber": "SF 572",
+    "title": "Ban on hospital/health facility licensure for PRC citizens",
+    "tier": 1,
+    "status": "Enacted as Chapter 1005, signed April 9, 2026; effective July 1, 2026",
+    "session": "2026 (91st GA)",
+    "category": "healthcare",
+    "target": "Individuals who are citizens of the People's Republic of China (including U.S. lawful permanent residents — the statute has no LPR exemption, and China bars dual citizenship), instrumentalities of the PRC government, and business entities majority-owned directly or indirectly by PRC citizens or instrumentalities. Parallel bans cover citizens/entities of the Russian Federation and the Democratic People's Republic of Korea.",
+    "restrictions": "Bar on issuance or renewal of hospital licenses (Iowa Code §135B.3) and health care facility licenses (§135C.6) for covered persons/entities",
+    "penalties": "License denial / non-renewal (facility cannot lawfully operate)",
+    "summary": "Iowa SF 572 (Chapter 1005) amends Iowa Code §135B.3 and §135C.6 to prohibit the state from issuing or renewing a hospital license or health care facility license for (a) an instrumentality of the government of the People's Republic of China, (b) an individual who is a citizen of the People's Republic of China, or (c) a business entity in which a majority interest is owned directly or indirectly by (a) or (b). Identical bans apply to the Russian Federation and the Democratic People's Republic of Korea. Introduced March 10, 2025 (as SSB 1186, renumbered SF 572); signed April 9, 2026; effective July 1, 2026.",
+    "civilRightsImpact": "Tier 1 because the operative classification is citizenship, not immigration status. A Chinese citizen who holds a U.S. green card is still 'an individual who is a citizen of the People's Republic of China' and is barred from obtaining or renewing a license to establish or operate a hospital, clinic, or care facility in Iowa. There is no lawful-permanent-resident carve-out. This reaches directly into lawful residents' livelihoods — not just visa holders, and not just foreign governments or companies.",
+    "keyProvisions": [
+      "Amended Iowa Code §135B.3(2): 'A license shall not be issued or renewed under this chapter for an instrumentality of the government of the People's Republic of China, an individual who is a citizen of the People's Republic of China, or a business entity in which a majority interest is owned directly or indirectly by' such instrumentality or individual.",
+      "Amended Iowa Code §135C.6(1)(c): identical ban for health care facility licenses.",
+      "Parallel subsections cover the Russian Federation (§135B.3(3), §135C.6(1)(d)) and the Democratic People's Republic of Korea (§135B.3(4), §135C.6(1)(e))."
+    ],
+    "url": "https://www.legis.iowa.gov/legislation/BillBook?ga=91&ba=SF572",
+    "officialUrl": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1005.pdf",
+    "introducedDate": "2025-03-10",
+    "lastUpdated": "2026-10-10"
   }
 ];
