@@ -1,10 +1,3 @@
-// Bills Data - Civil Rights Legislation Tracker for Chinese Americans
-// Focus: Civil Rights Impact on Individuals
-// Tier 1: the text can burden lawful permanent residents or US citizens by identity or status (displayed)
-// Tier 2: the text burdens visa holders / non-LPR foreign nationals only (displayed, labeled)
-// The tracker publishes only measures burdening a community member's life, employment, or schooling in the United States.
-// Last updated: 2026-09-14
-
 const billsData = [
   {
     "id": "fl/government-SB 264",
@@ -397,7 +390,14 @@ const billsData = [
     "url": "https://www.flsenate.gov/Session/Bill/2026/905",
     "officialUrl": "https://www.flsenate.gov/Session/Bill/2026/905/BillText/er/PDF",
     "introducedDate": "2026-01-13",
-    "lastUpdated": "2026-05-11"
+    "lastUpdated": "2026-05-11",
+    "sponsor": {
+      "name": "Jenna Persons-Mulicka",
+      "party": "R",
+      "chamber": "House",
+      "district": "78",
+      "coSponsors": 6
+    }
   },
   {
     "id": "ok/property-HB 3431",
@@ -425,7 +425,14 @@ const billsData = [
     "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB3431&Session=2600",
     "officialUrl": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB3431%20ENR.PDF",
     "introducedDate": "2026-02-02",
-    "lastUpdated": "2026-05-11"
+    "lastUpdated": "2026-05-11",
+    "sponsor": {
+      "name": "Jonathan Wilk",
+      "party": "R",
+      "chamber": "House",
+      "district": "20",
+      "coSponsors": 8
+    }
   },
   {
     "id": "ny/property-A 6154",
@@ -451,7 +458,14 @@ const billsData = [
     "url": "https://assembly.ny.gov/leg/?bn=A06154",
     "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/A6154",
     "introducedDate": "2025-02-26",
-    "lastUpdated": "2026-01-07"
+    "lastUpdated": "2026-01-07",
+    "sponsor": {
+      "name": "John Lemondes Jr.",
+      "party": "R",
+      "chamber": "House",
+      "district": "126",
+      "coSponsors": 0
+    }
   },
   {
     "id": "ny/property-S 5651",
@@ -479,7 +493,14 @@ const billsData = [
     "url": "https://assembly.ny.gov/leg/?bn=S05651",
     "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/S5651",
     "introducedDate": "2025-02-26",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Jacob C. \"Jake\" Ashby",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "43",
+      "coSponsors": 1
+    }
   },
   {
     "id": "ok/contract-SB 2073",
@@ -696,7 +717,14 @@ const billsData = [
     "url": "https://apps.azleg.gov/BillStatus/BillOverview/83833?SessionId=130",
     "officialUrl": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2171P.pdf",
     "introducedDate": "2026-01-08",
-    "lastUpdated": "2026-06-30"
+    "lastUpdated": "2026-06-30",
+    "sponsor": {
+      "name": "Lupe Diaz",
+      "party": "R",
+      "chamber": "House",
+      "district": "19",
+      "coSponsors": 0
+    }
   },
   {
     "id": "ak/property-SB 139",
@@ -723,7 +751,14 @@ const billsData = [
     "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB+139",
     "officialUrl": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0139A",
     "introducedDate": "2025-03-19",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Shelley Hughes",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "M",
+      "coSponsors": 0
+    }
   },
   {
     "id": "nh/government-HB 1606",
@@ -751,7 +786,14 @@ const billsData = [
     "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1595&inflect=2",
     "officialUrl": "https://gc.nh.gov/bill_status/pdf.aspx?id=23983&q=billVersion",
     "introducedDate": "2025-12-10",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Mike Belcher",
+      "party": "R",
+      "chamber": "House",
+      "district": "Carroll 4",
+      "coSponsors": 5
+    }
   },
   {
     "id": "nh/government-HB 1561",
@@ -778,7 +820,14 @@ const billsData = [
     "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1549&inflect=2",
     "officialUrl": "https://gc.nh.gov/bill_status/pdf.aspx?id=28739&q=billVersion",
     "introducedDate": "2025-12-10",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Mike Belcher",
+      "party": "R",
+      "chamber": "House",
+      "district": "Carroll 4",
+      "coSponsors": 4
+    }
   },
   {
     "id": "fl/contract-SB 1178",
@@ -884,12 +933,16 @@ const billsData = [
       "Status: died — the 2026 session adjourned sine die Apr 9, 2026, and Alabama has no carryover"
     ],
     "url": "https://alison.legislature.state.al.us/bill-search?bill=HB358",
-    // ALISON has no per-bill detail pages, and the reported-substitute (2/24/2026)
-    // full text has no stable canonical URL — linking the introduced-text PDF as
-    // the official source. Re-check for a newer-version text on the next update.
     "officialUrl": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB358-int.pdf",
     "introducedDate": "",
-    "lastUpdated": "2026-09-14"
+    "lastUpdated": "2026-09-14",
+    "sponsor": {
+      "name": "Anthony Daniels",
+      "party": "D",
+      "chamber": "House",
+      "district": "53",
+      "coSponsors": 37
+    }
   },
   {
     "id": "ar/other-HB 1800",
@@ -915,7 +968,14 @@ const billsData = [
     "url": "https://arkleg.state.ar.us/Bills/Detail?id=HB1800&ddBienniumSession=2025%2F2025R",
     "officialUrl": "https://webftp.blr.arkansas.gov/Home/FTPDocument?path=ACTS%2F2025R%2FPublic%2FACT998.pdf",
     "introducedDate": "",
-    "lastUpdated": "2026-09-14"
+    "lastUpdated": "2026-09-14",
+    "sponsor": {
+      "name": "Mindy McAlindon",
+      "party": "R",
+      "chamber": "House",
+      "district": "10",
+      "coSponsors": 1
+    }
   },
   {
     "id": "az/property-SB 1683",
@@ -943,7 +1003,14 @@ const billsData = [
     "url": "https://www.azleg.gov/legtext/57leg/2R/laws/0240.pdf",
     "officialUrl": "https://www.azleg.gov/legtext/57leg/2R/laws/0240.pdf",
     "introducedDate": "",
-    "lastUpdated": "2026-09-14"
+    "lastUpdated": "2026-09-14",
+    "sponsor": {
+      "name": "Frank Carroll",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "28",
+      "coSponsors": 0
+    }
   },
   {
     "id": "il/contract-SB 2368-SB 3456-SB 3998",
@@ -970,7 +1037,14 @@ const billsData = [
     "url": "https://www.ilga.gov/Legislation/BillStatus?DocNum=2368&GAID=18&DocTypeID=SB&SessionID=114&GA=104",
     "officialUrl": "https://lig.ilga.gov/legislation/104/SB/PDF/10400SB2368.pdf",
     "introducedDate": "",
-    "lastUpdated": "2026-09-14"
+    "lastUpdated": "2026-09-14",
+    "sponsor": {
+      "name": "Jason Plummer",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "55",
+      "coSponsors": 0
+    }
   },
   {
     "id": "ne/other-LB 644",
@@ -998,7 +1072,14 @@ const billsData = [
     "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=58765",
     "officialUrl": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Final/LB644.pdf",
     "introducedDate": "",
-    "lastUpdated": "2026-09-14"
+    "lastUpdated": "2026-09-14",
+    "sponsor": {
+      "name": "Eliot Bostar",
+      "party": "D",
+      "chamber": "Unicameral",
+      "district": "29",
+      "coSponsors": 1
+    }
   },
   {
     "id": "oh/property-HB 1-SB 88",
@@ -1025,7 +1106,14 @@ const billsData = [
     "url": "https://www.legislature.ohio.gov/legislation/136/hb1",
     "officialUrl": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb1/00_IN/pdf/",
     "introducedDate": "",
-    "lastUpdated": "2026-09-14"
+    "lastUpdated": "2026-09-14",
+    "sponsor": {
+      "name": "Angela N. King",
+      "party": "R",
+      "chamber": "House",
+      "district": "84",
+      "coSponsors": 54
+    }
   },
   {
     "id": "tx/property-HB 518",
@@ -1105,7 +1193,14 @@ const billsData = [
     "url": "https://wyoleg.gov/Legislation/2025/HB0224",
     "officialUrl": "https://wyoleg.gov/2025/Engross/HB0224.pdf",
     "introducedDate": "2025-01-29",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Dalton Banks",
+      "party": "R",
+      "chamber": "House",
+      "district": "26",
+      "coSponsors": 20
+    }
   },
   {
     "id": "sc/property-H 4787",
@@ -1131,7 +1226,14 @@ const billsData = [
     "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=4787&session=126&summary=B",
     "officialUrl": "https://www.scstatehouse.gov/sess126_2025-2026/bills/4787.htm",
     "introducedDate": "2025-12-16",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "John R. McCravy III",
+      "party": "R",
+      "chamber": "House",
+      "district": "13",
+      "coSponsors": 2
+    }
   },
   {
     "id": "ok/property-SB 1672",
@@ -1157,7 +1259,14 @@ const billsData = [
     "url": "https://www.oklegislature.gov/BillInfo.aspx?Bill=sb+1672&Session=2600",
     "officialUrl": "https://www.oklegislature.gov/cf_pdf/2025-26%20INT/SB/SB1672%20INT.PDF",
     "introducedDate": "2026-01-14",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Warren Hamilton",
+      "party": "R",
+      "chamber": "Senate",
+      "district": "7",
+      "coSponsors": 1
+    }
   },
   {
     "id": "ny/property-S 6183",
@@ -1185,7 +1294,14 @@ const billsData = [
     "url": "https://www.nysenate.gov/legislation/bills/2025/S6183",
     "officialUrl": "https://legislation.nysenate.gov/pdf/bills/2025/s6183",
     "introducedDate": "2025-03-06",
-    "lastUpdated": "2026-09-25"
+    "lastUpdated": "2026-09-25",
+    "sponsor": {
+      "name": "Kevin Parker",
+      "party": "D",
+      "chamber": "Senate",
+      "district": "21",
+      "coSponsors": 0
+    }
   },
   {
     "id": "wi/property-SB 219-AB 218",
@@ -1197,18 +1313,18 @@ const billsData = [
     "status": "Failed to pass in both chambers (session ended pursuant to Senate Joint Resolution 1, Mar 23, 2026)",
     "session": "2025-2026",
     "category": "property",
-    "target": "\u201cCovered foreign persons\u201d: (1) a nonresident alien \u2014 defined as an alien who is not a resident of a U.S. state; (2) foreign governments (new); (3) foreign entities and entities/trusts more than 25% owned by or held for nonresident aliens, foreign entities, or foreign governments (threshold raised from 20%). A separate prong covers \u201cforeign adversaries\u201d \u2014 persons determined by the U.S. Department of Commerce to be foreign adversaries (currently China, Cuba, Iran, North Korea, Russia, and Venezuela). U.S. citizens are not aliens and are excluded; LPRs domiciled in-state are residents and appear excluded under the definition's own terms.",
+    "target": "“Covered foreign persons”: (1) a nonresident alien — defined as an alien who is not a resident of a U.S. state; (2) foreign governments (new); (3) foreign entities and entities/trusts more than 25% owned by or held for nonresident aliens, foreign entities, or foreign governments (threshold raised from 20%). A separate prong covers “foreign adversaries” — persons determined by the U.S. Department of Commerce to be foreign adversaries (currently China, Cuba, Iran, North Korea, Russia, and Venezuela). U.S. citizens are not aliens and are excluded; LPRs domiciled in-state are residents and appear excluded under the definition's own terms.",
     "restrictions": "Property restrictions",
     "penalties": "Forfeiture to the state of interests acquired in violation (military-installation prong); attorney general enforcement",
-    "summary": "The companion bills would have rewritten Wisconsin's foreign-ownership statute (Wis. Stat. 710.02). They cut the existing cap on agricultural land for covered foreign persons from 640 to 50 acres \u2014 narrowing it to land classified as agricultural for property-tax purposes (forestry land expressly excluded) \u2014 and added two new bans: (1) no covered foreign person \u2014 including nonresident aliens \u2014 may acquire, own, or hold any interest, directly or indirectly, in real property within 10 miles of a military installation; (2) no Commerce-determined foreign adversary may acquire, own, or hold any interest in real property anywhere in the state. Interests acquired in violation near military installations are forfeited to the state, with the attorney general responsible for enforcement. A Senate substitute amendment (Aug 13, 2025) would have deleted both new bans, keeping only the acreage changes; it was never adopted. Both bills died when the 2025\u20132026 session ended pursuant to Senate Joint Resolution 1 (Mar 23, 2026): SB 219 (introduced Apr 25, 2025) had a Senate Agriculture and Revenue hearing (June 4, 2025); AB 218 (introduced Apr 23, 2025) had an Assembly Agriculture hearing (Jan 14, 2026).",
-    "civilRightsImpact": "The operative classification is alienage, not nationality: the covered class is nonresident aliens \u2014 aliens who are not residents of a U.S. state \u2014 which excludes U.S. citizens (not aliens) and LPRs domiciled in-state (residents under the definition's own terms), hence Tier 2. The practical reach over visa holders already living in Wisconsin is legally untested: the better textual reading treats Wisconsin-residing F-1/H-1B holders as \u201cresidents\u201d (not covered), though a domicile-based reading could sweep in students retaining foreign domicile. What is clear is the mechanism's bite for covered persons: the 10-mile military-installation ban covers any interest in real property, directly or indirectly, with no lease exemption (leases are interests in land under Wisconsin law), and violative interests are forfeited to the state. The companion foreign-adversary total ban operates at the entity/government level (Commerce determination) and does not reach individual nationals. Both bills failed, but the military-buffer mechanism is the notable civil-liberties flag in the record.",
+    "summary": "The companion bills would have rewritten Wisconsin's foreign-ownership statute (Wis. Stat. 710.02). They cut the existing cap on agricultural land for covered foreign persons from 640 to 50 acres — narrowing it to land classified as agricultural for property-tax purposes (forestry land expressly excluded) — and added two new bans: (1) no covered foreign person — including nonresident aliens — may acquire, own, or hold any interest, directly or indirectly, in real property within 10 miles of a military installation; (2) no Commerce-determined foreign adversary may acquire, own, or hold any interest in real property anywhere in the state. Interests acquired in violation near military installations are forfeited to the state, with the attorney general responsible for enforcement. A Senate substitute amendment (Aug 13, 2025) would have deleted both new bans, keeping only the acreage changes; it was never adopted. Both bills died when the 2025–2026 session ended pursuant to Senate Joint Resolution 1 (Mar 23, 2026): SB 219 (introduced Apr 25, 2025) had a Senate Agriculture and Revenue hearing (June 4, 2025); AB 218 (introduced Apr 23, 2025) had an Assembly Agriculture hearing (Jan 14, 2026).",
+    "civilRightsImpact": "The operative classification is alienage, not nationality: the covered class is nonresident aliens — aliens who are not residents of a U.S. state — which excludes U.S. citizens (not aliens) and LPRs domiciled in-state (residents under the definition's own terms), hence Tier 2. The practical reach over visa holders already living in Wisconsin is legally untested: the better textual reading treats Wisconsin-residing F-1/H-1B holders as “residents” (not covered), though a domicile-based reading could sweep in students retaining foreign domicile. What is clear is the mechanism's bite for covered persons: the 10-mile military-installation ban covers any interest in real property, directly or indirectly, with no lease exemption (leases are interests in land under Wisconsin law), and violative interests are forfeited to the state. The companion foreign-adversary total ban operates at the entity/government level (Commerce determination) and does not reach individual nationals. Both bills failed, but the military-buffer mechanism is the notable civil-liberties flag in the record.",
     "keyProvisions": [
-      "\u201cCovered foreign person\u201d = nonresident alien (alien not a resident of a U.S. state) + foreign governments (new) + foreign entities + >25% foreign-owned entities/trusts (threshold raised from 20%)",
+      "“Covered foreign person” = nonresident alien (alien not a resident of a U.S. state) + foreign governments (new) + foreign entities + >25% foreign-owned entities/trusts (threshold raised from 20%)",
       "Agricultural-land cap cut from 640 to 50 acres and narrowed to tax-classified agricultural land; forestry land expressly excluded (Wis. Stat. 710.02)",
-      "New: no covered foreign person may acquire, own, or hold any interest, directly or indirectly, in real property within 10 miles of a military installation \u2014 no lease exemption in the text",
+      "New: no covered foreign person may acquire, own, or hold any interest, directly or indirectly, in real property within 10 miles of a military installation — no lease exemption in the text",
       "New: no Commerce-determined foreign adversary (currently China, Cuba, Iran, North Korea, Russia, Venezuela) may hold any interest in real property statewide",
       "Forfeiture to the state of violative interests (military prong); attorney general enforcement",
-      "Senate Substitute Amendment 1 (8/13/2025) would have deleted both new bans \u2014 never adopted",
+      "Senate Substitute Amendment 1 (8/13/2025) would have deleted both new bans — never adopted",
       "Failed: both bills died at session end pursuant to Senate Joint Resolution 1 (Mar 23, 2026); SB 219 Senate hearing 6/4/2025, AB 218 Assembly hearing 1/14/2026"
     ],
     "url": "https://docs.legis.wisconsin.gov/2025/proposals/sb219",

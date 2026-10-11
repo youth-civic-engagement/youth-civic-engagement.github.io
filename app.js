@@ -319,6 +319,13 @@ function createBillCard(bill) {
         appendDetailBlock(detailsContent, 'Potential individual effect', bill.civilRightsImpact, 'civil-rights-impact');
     }
 
+    if (bill.sponsor && bill.sponsor.name) {
+        const s = bill.sponsor;
+        const partyLabel = s.party === 'R' ? 'Republican' : s.party === 'D' ? 'Democrat' : s.party;
+        const sponsorText = `${s.name} (${partyLabel}, ${s.chamber} District ${s.district})` + (s.coSponsors ? ` — ${s.coSponsors} co-sponsor${s.coSponsors === 1 ? '' : 's'}` : '');
+        appendDetailBlock(detailsContent, 'Primary sponsor', sponsorText, 'bill-sponsor');
+    }
+
     const restrictionText = [
         bill.restrictions ? `Restrictions: ${bill.restrictions}` : '',
         bill.penalties ? `Penalties: ${bill.penalties}` : '',
